@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 319.0, 163.0, 711.0, 729.0 ],
+		"rect" : [ 676.0, 427.0, 1029.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 741.0, 466.0, 128.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 123.333333373069763, 2.0, 101.333333790302277, 18.0 ],
+					"text" : "MANUAL",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "message",
@@ -99,7 +115,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 380.0, 271.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 220.0, 13.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 202.333333373069763, 24.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -164,7 +180,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 206.0, 271.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.5, 28.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 163.333333373069763, 24.0, 35.0, 22.0 ]
 				}
 
 			}
@@ -179,7 +195,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 43.5, 271.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.5, 1.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 123.333333373069763, 24.0, 35.0, 22.0 ]
 				}
 
 			}
@@ -191,9 +207,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 726.0, 451.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 1.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 89.0, 1.0, 22.0, 20.0 ],
 					"text" : "4",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -205,9 +222,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 726.0, 420.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.666666666666657, 1.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 60.666666666666657, 1.0, 22.0, 20.0 ],
 					"text" : "2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -219,9 +237,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 726.0, 390.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.333333333333343, 1.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 31.333333000000003, 1.0, 26.0, 20.0 ],
 					"text" : "3/2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -233,9 +252,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 726.0, 360.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 1.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 0.5, 1.0, 26.0, 20.0 ],
 					"text" : "1/2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -289,7 +309,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -546,7 +566,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 687.0, 446.0, 23.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.0, 25.5, 23.0, 27.0 ],
+					"presentation_rect" : [ 89.0, 24.0, 22.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -570,7 +590,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 646.0, 446.0, 23.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.666666666666657, 25.5, 23.0, 27.0 ],
+					"presentation_rect" : [ 60.666666666666657, 24.0, 22.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -594,7 +614,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 614.0, 446.0, 23.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.333333333333343, 25.5, 23.0, 27.0 ],
+					"presentation_rect" : [ 33.333333000000003, 24.0, 22.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -618,7 +638,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 584.0, 446.0, 23.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 25.5, 23.0, 27.0 ],
+					"presentation_rect" : [ 4.5, 24.0, 22.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -907,6 +927,10 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-34::obj-7" : [ "#1_speed_button_1/2", "#1_speed_button_1/2", 0 ],
+			"obj-37::obj-7" : [ "#1_speed_button_3/2", "#1_speed_button_3/2", 0 ],
+			"obj-38::obj-7" : [ "#1_speed_button_2", "#1_speed_button_2", 0 ],
+			"obj-39::obj-7" : [ "#1_speed_button_4", "#1_speed_button_4", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -921,15 +945,16 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "djazz_speed_button.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/patchers/tools",
-				"patcherrelativepath" : "../tools",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/gui",
+				"patcherrelativepath" : "../../../tools/gui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
+		"autosave" : 0,
 		"textcolor_inverse" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
-		"bgcolor" : [ 0.764705882352941, 0.701960784313725, 0.701960784313725, 0.0 ],
-		"editing_bgcolor" : [ 0.76078431372549, 0.76078431372549, 0.76078431372549, 1.0 ]
+		"bgcolor" : [ 0.658823529411765, 0.674509803921569, 0.690196078431373, 1.0 ],
+		"editing_bgcolor" : [ 0.658823529411765, 0.674509803921569, 0.690196078431373, 1.0 ]
 	}
 
 }
