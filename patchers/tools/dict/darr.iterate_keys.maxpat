@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 106.0, 426.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(int) index",
 					"id" : "obj-5",
 					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 414.0, 30.0, 30.0 ]
+					"patching_rect" : [ 190.0, 392.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -57,45 +57,45 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 179.75, 297.0, 29.5, 22.0 ],
+					"patching_rect" : [ 190.0, 275.0, 88.25, 22.0 ],
 					"text" : "t i i"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "bang ewhen done iterating",
 					"id" : "obj-3",
 					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.0, 340.0, 30.0, 30.0 ]
+					"patching_rect" : [ 116.5, 392.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(anything) entry at index",
 					"id" : "obj-2",
 					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.5, 398.0, 30.0, 30.0 ]
+					"patching_rect" : [ 259.25, 392.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(sym) dict name",
 					"id" : "obj-1",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.0, 53.0, 30.0, 30.0 ]
+					"patching_rect" : [ 43.0, 28.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 348.0, 66.0, 22.0 ],
+					"patching_rect" : [ 259.25, 326.0, 66.0, 22.0 ],
 					"text" : "darr.get_at"
 				}
 
@@ -118,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 164.0, 260.0, 29.5, 22.0 ],
+					"patching_rect" : [ 190.0, 220.0, 29.5, 22.0 ],
 					"text" : "- 1"
 				}
 
@@ -130,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 143.0, 211.0, 40.0, 22.0 ],
+					"patching_rect" : [ 43.0, 165.0, 166.0, 22.0 ],
 					"text" : "uzi"
 				}
 
@@ -142,7 +142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 143.0, 153.0, 103.0, 22.0 ],
+					"patching_rect" : [ 43.0, 107.0, 103.0, 22.0 ],
 					"text" : "du.get_key_count"
 				}
 
