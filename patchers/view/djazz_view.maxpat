@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "bang for next beat",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -628,7 +628,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 315.898263454437256, 45.156769545887869, 77.0, 35.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -681,7 +681,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -693,7 +693,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -705,7 +705,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -718,7 +718,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -731,7 +731,7 @@
 				"box" : 				{
 					"comment" : "presets",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -852,7 +852,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -877,7 +877,7 @@
 				"box" : 				{
 					"comment" : "ctrl variables",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -934,7 +934,7 @@
 				"box" : 				{
 					"comment" : "from model out -- view params",
 					"id" : "obj-60",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1041,6 +1041,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"order" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1102,629 +1111,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-29::obj-1" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-29::obj-12" : [ "live.gain~[1]", "Gain", 0 ],
-			"obj-45::obj-43::obj-11::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[41]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-11::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[41]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-11::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[41]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-11::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[41]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-11::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[41]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-11::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[41]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-11::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[41]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-11::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[41]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-11::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[41]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-11::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[41]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-11::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[41]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-11::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[41]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-13::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[42]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-13::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[42]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-13::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[42]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-13::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[42]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-13::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[42]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-13::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[42]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-13::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[42]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-13::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[42]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-13::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[42]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-13::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[42]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-13::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[42]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-13::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[42]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-14::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[43]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-14::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[43]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-14::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[43]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-14::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[43]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-14::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[43]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-14::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[43]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-14::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[43]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-14::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[43]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-14::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[43]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-14::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[43]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-14::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[43]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-14::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[43]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-15::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[44]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-15::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[44]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-15::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[44]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-15::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[44]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-15::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[44]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-15::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[44]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-15::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[44]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-15::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[44]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-15::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[44]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-15::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[44]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-15::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[44]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-15::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[44]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-16::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[45]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-16::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[45]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-16::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[45]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-16::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[45]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-16::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[45]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-16::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[45]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-16::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[45]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-16::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[45]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-16::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[45]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-16::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[45]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-16::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[45]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-16::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[45]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-17::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[46]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-17::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[46]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-17::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[46]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-17::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[46]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-17::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[46]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-17::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[46]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-17::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[46]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-17::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[46]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-17::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[46]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-17::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[46]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-17::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[46]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-17::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[46]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-18::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[47]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-18::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[47]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-18::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[47]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-18::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[47]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-18::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[47]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-18::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[47]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-18::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[47]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-18::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[47]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-18::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[47]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-18::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[47]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-18::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[47]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-18::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[47]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-1::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-1::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-1::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-1::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-1::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-1::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-1::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-1::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-1::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-1::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-1::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-1::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-21::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[48]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-21::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[48]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-21::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[48]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-21::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[48]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-21::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[48]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-21::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[48]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-21::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[48]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-21::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[48]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-21::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[48]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-21::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[48]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-21::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[48]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-21::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[48]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-2::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[34]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-2::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[34]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-2::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[34]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-2::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[34]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-2::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[34]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-2::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[34]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-2::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[34]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-2::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[34]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-2::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[34]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-2::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[34]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-2::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[34]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-2::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[34]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-3::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[35]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-3::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[35]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-3::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[35]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-3::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[35]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-3::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[35]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-3::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[35]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-3::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[35]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-3::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[35]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-3::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[35]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-3::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[35]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-3::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[35]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-3::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[35]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[49]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[49]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[49]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[49]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[49]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[49]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[49]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[49]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[49]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[49]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[49]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-42::obj-10::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[49]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[50]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[50]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[50]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[50]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[50]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[50]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[50]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[50]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[50]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[50]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[50]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-42::obj-25::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[50]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-4::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[36]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-4::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[36]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-4::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[36]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-4::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[36]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-4::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[36]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-4::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[36]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-4::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[36]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-4::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[36]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-4::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[36]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-4::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[36]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-4::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[36]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-4::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[36]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-5::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[37]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-5::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[37]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-5::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[37]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-5::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[37]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-5::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[37]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-5::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[37]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-5::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[37]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-5::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[37]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-5::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[37]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-5::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[37]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-5::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[37]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-5::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[37]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-6::obj-11::obj-1" : [ "track_2_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-11::obj-2" : [ "track_2_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-11::obj-46" : [ "track_2_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-14::obj-1" : [ "track_3_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-14::obj-2" : [ "track_3_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-14::obj-46" : [ "track_3_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-16::obj-1" : [ "track_4_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-16::obj-2" : [ "track_4_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-16::obj-46" : [ "track_4_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-18::obj-1" : [ "track_5_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-18::obj-2" : [ "track_5_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-18::obj-46" : [ "track_5_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-20::obj-1" : [ "track_6_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-20::obj-2" : [ "track_6_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-20::obj-46" : [ "track_6_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-22::obj-1" : [ "track_7_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-22::obj-2" : [ "track_7_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-22::obj-46" : [ "track_7_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-24::obj-1" : [ "track_8_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-24::obj-2" : [ "track_8_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-24::obj-46" : [ "track_8_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-26::obj-1" : [ "track_9_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-26::obj-2" : [ "track_9_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-26::obj-46" : [ "track_9_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-28::obj-1" : [ "track_10_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-28::obj-2" : [ "track_10_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-28::obj-46" : [ "track_10_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-30::obj-1" : [ "track_11_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-30::obj-2" : [ "track_11_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-30::obj-46" : [ "track_11_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-32::obj-1" : [ "track_12_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-32::obj-2" : [ "track_12_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-32::obj-46" : [ "track_12_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-34::obj-1" : [ "track_13_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-34::obj-2" : [ "track_13_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-34::obj-46" : [ "track_13_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-36::obj-1" : [ "track_14_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-36::obj-2" : [ "track_14_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-36::obj-46" : [ "track_14_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-38::obj-1" : [ "track_15_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-38::obj-2" : [ "track_15_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-38::obj-46" : [ "track_15_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-40::obj-1" : [ "track_16_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-40::obj-2" : [ "track_16_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-40::obj-46" : [ "track_16_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-6::obj-9::obj-1" : [ "track_1_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-6::obj-9::obj-2" : [ "track_1_mute", "led", 0 ],
-			"obj-45::obj-43::obj-6::obj-9::obj-46" : [ "track_1_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-7::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[38]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-7::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[38]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-7::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[38]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-7::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[38]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-7::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[38]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-7::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[38]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-7::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[38]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-7::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[38]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-7::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[38]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-7::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[38]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-7::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[38]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-7::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[38]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-8::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[39]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-8::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[39]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-8::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[39]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-8::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[39]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-8::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[39]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-8::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[39]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-8::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[39]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-8::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[39]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-8::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[39]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-8::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[39]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-8::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[39]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-8::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[39]", "midi_player_1_speed_button_4", 0 ],
-			"obj-45::obj-43::obj-9::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[40]", "midi_player_1_loop_5", 0 ],
-			"obj-45::obj-43::obj-9::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[40]", "midi_player_1_loop_6", 0 ],
-			"obj-45::obj-43::obj-9::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[40]", "midi_player_1_loop_7", 0 ],
-			"obj-45::obj-43::obj-9::obj-15::obj-40::obj-7" : [ "midi_player_1_loop_1[40]", "midi_player_1_loop_1", 0 ],
-			"obj-45::obj-43::obj-9::obj-15::obj-41::obj-7" : [ "midi_player_1_loop_2[40]", "midi_player_1_loop_2", 0 ],
-			"obj-45::obj-43::obj-9::obj-15::obj-44::obj-7" : [ "midi_player_1_loop_3[40]", "midi_player_1_loop_3", 0 ],
-			"obj-45::obj-43::obj-9::obj-15::obj-45::obj-7" : [ "midi_player_1_loop_4[40]", "midi_player_1_loop_4", 0 ],
-			"obj-45::obj-43::obj-9::obj-15::obj-46::obj-7" : [ "midi_player_1_loop_8[40]", "midi_player_1_loop_8", 0 ],
-			"obj-45::obj-43::obj-9::obj-17::obj-34::obj-7" : [ "midi_player_1_speed_button_1/2[40]", "midi_player_1_speed_button_1/2", 0 ],
-			"obj-45::obj-43::obj-9::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[40]", "midi_player_1_speed_button_3/2", 0 ],
-			"obj-45::obj-43::obj-9::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[40]", "midi_player_1_speed_button_2", 0 ],
-			"obj-45::obj-43::obj-9::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[40]", "midi_player_1_speed_button_4", 0 ],
-			"obj-47::obj-16::obj-1" : [ "led", "loop_chapter", 0 ],
-			"obj-47::obj-45::obj-24::obj-15" : [ "bar_number", "bar_number", 0 ],
-			"obj-47::obj-45::obj-24::obj-6" : [ "chapter_loop", "chapter_loop", 0 ],
-			"obj-47::obj-45::obj-24::obj-7" : [ "chapter_number", "chapter_number", 0 ],
-			"obj-47::obj-45::obj-85::obj-3" : [ "grid_view", "grid_view", 0 ],
-			"obj-47::obj-45::obj-85::obj-31" : [ "num_chapters", "num_chapters", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "1142014.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
-				"patcherrelativepath" : "../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "15838-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
-				"patcherrelativepath" : "../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "45570-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
-				"patcherrelativepath" : "../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "55162.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
-				"patcherrelativepath" : "../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "db_dictionary_array_utils.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/code/tools",
-				"patcherrelativepath" : "../../code/tools",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.audio_track_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/audio/audio_out",
-				"patcherrelativepath" : "../audio/audio_out",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.midi_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi",
-				"patcherrelativepath" : "../midi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.audio.audio_in.buffer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/audio",
-				"patcherrelativepath" : "../audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.audio.audio_in.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/audio",
-				"patcherrelativepath" : "../audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.audio.audio_in.score.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/audio",
-				"patcherrelativepath" : "../audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.audio.improviser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/audio",
-				"patcherrelativepath" : "../audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.audio.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/audio",
-				"patcherrelativepath" : "../audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.audio.track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/audio",
-				"patcherrelativepath" : "../audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.midi.beat_generator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi",
-				"patcherrelativepath" : "../midi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.midi.midi_out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi",
-				"patcherrelativepath" : "../midi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.midi.midi_out_master_control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/midi_out",
-				"patcherrelativepath" : "../midi/midi_out",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_PARAMS_CTRL_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/params",
-				"patcherrelativepath" : "../params",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_PARAMS_VIEW_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/params",
-				"patcherrelativepath" : "../params",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_beat_to_beat_bar_chapter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../grid",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_components_midi_out_effect_list_view.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/code/midiout",
-				"patcherrelativepath" : "../../code/midiout",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_get_bar_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../grid",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_get_chapter_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../grid",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_grid_view_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../grid",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_loop_control_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/midi_play/view",
-				"patcherrelativepath" : "../midi/midi_play/view",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_master_clock_view_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/master",
-				"patcherrelativepath" : "../master",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/master",
-				"patcherrelativepath" : "../master",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_master_view_beat_out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/master",
-				"patcherrelativepath" : "../master",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_midi_out_bank_view_16_tracks.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midiout",
-				"patcherrelativepath" : "../midiout",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_midi_out_effect_list_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midiout",
-				"patcherrelativepath" : "../midiout",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_midi_out_solo_bank_view.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/code/midiout",
-				"patcherrelativepath" : "../../code/midiout",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_midi_out_track_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midiout",
-				"patcherrelativepath" : "../midiout",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_midi_out_track_view_outport.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midiout",
-				"patcherrelativepath" : "../midiout",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_navigate_bar_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../grid",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_navigate_chapter_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../grid",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_navigate_view_chapter_bar_beat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../grid",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_number_button.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/gui",
-				"patcherrelativepath" : "../tools/gui",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_range.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/iterators",
-				"patcherrelativepath" : "../tools/iterators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_select_score_file_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/song file io",
-				"patcherrelativepath" : "../song file io",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_session_file.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/code/file_io",
-				"patcherrelativepath" : "../../code/file_io",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_speed_button.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/gui",
-				"patcherrelativepath" : "../tools/gui",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_speed_control_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/midi_play/view",
-				"patcherrelativepath" : "../midi/midi_play/view",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_tempo_to_ms.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/conversion",
-				"patcherrelativepath" : "../tools/conversion",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_view_load_song_folder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/song file io",
-				"patcherrelativepath" : "../song file io",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_view_session_file.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/song file io",
-				"patcherrelativepath" : "../song file io",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_at_subkey.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/dict",
-				"patcherrelativepath" : "../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "eqsym.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools",
-				"patcherrelativepath" : "../tools",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "key_msg.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools",
-				"patcherrelativepath" : "../tools",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "—Pngtree—loop icon_4490384.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
-				"patcherrelativepath" : "../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 	}

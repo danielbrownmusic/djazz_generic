@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 139.0, 107.0, 1226.0, 976.0 ],
+		"rect" : [ 304.0, 111.0, 1226.0, 976.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -63,19 +63,26 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "djazz.view.midi.midi_out.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 53.697466538604743, 0.333331704139709, 2403.333348631858826, 1041.666669368743896 ],
+					"patching_rect" : [ 15.0, 66.333331704139709, 2403.333348631858826, 1041.666669368743896 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.697466538604736, 1.333331704139709, 2387.333348631858826, 1022.666669368743896 ],
+					"presentation_rect" : [ 0.697466538604736, -12.666668295860291, 2387.333348631858826, 1022.666669368743896 ],
 					"varname" : "midi_out",
 					"viewvisibility" : 1
 				}
 
 			}
  ],
-		"lines" : [  ]
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+ ]
 	}
 
 }

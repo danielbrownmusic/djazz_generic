@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 129.0, 958.0, 221.0 ],
+		"rect" : [ 134.0, 129.0, 1326.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -207,7 +207,7 @@
 					}
 ,
 					"text" : "p score_2",
-					"varname" : "score_2"
+					"varname" : "score_file_2"
 				}
 
 			}
@@ -371,7 +371,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 21.267857212036347, 158.112677418949659, 79.0, 22.0 ],
+					"patching_rect" : [ 21.267857212036347, 158.112677418949659, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -379,8 +379,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p score_1",
-					"varname" : "score_1"
+					"text" : "p score_file_1",
+					"varname" : "score_file_1"
 				}
 
 			}
@@ -454,7 +454,6 @@
 					"patching_rect" : [ 362.883262890785431, 93.596058893787372, 283.24999988079071, 25.833333373069763 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 298.096276503593231, 3.516619240418038, 282.75, 22.5 ],
-					"varname" : "score_file_2",
 					"viewvisibility" : 1
 				}
 
@@ -479,7 +478,6 @@
 					"patching_rect" : [ 21.267857212036347, 93.596058893787372, 283.083333134651184, 24.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.096276503593231, 3.516619240418038, 282.75, 23.0 ],
-					"varname" : "score_file_1",
 					"viewvisibility" : 1
 				}
 
@@ -633,21 +631,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "2448971-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
-				"patcherrelativepath" : "../../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "45570-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
-				"patcherrelativepath" : "../../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "5057-200.png",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG",
@@ -662,13 +646,6 @@
 			}
 , 			{
 				"name" : "djazz.view.midi.beat_generator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi",
-				"patcherrelativepath" : "..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view.midi.factor_oracle_navigator.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",

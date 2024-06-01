@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 317.0, 128.0, 449.0, 615.0 ],
+		"rect" : [ 317.0, 128.0, 628.0, 615.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,58 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 44.0, 35.0, 72.0, 35.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr beat_count",
+					"varname" : "beat_count"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 70.5, 101.0, 50.0, 22.0 ],
+					"varname" : "number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "gswitch2",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 70.0, 191.0, 99.0, 29.0 ],
+					"varname" : "gswitch2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 200.0, 286.0, 53.0, 22.0 ],
+					"patching_rect" : [ 319.0, 293.0, 53.0, 22.0 ],
 					"text" : "pattrhub"
 				}
 
@@ -58,7 +104,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 93.0, 179.333353999999986, 24.0, 24.0 ]
+					"patching_rect" : [ 212.0, 186.333353999999986, 24.0, 24.0 ]
 				}
 
 			}
@@ -69,7 +115,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 225.333353999999986, 91.0, 22.0 ],
+					"patching_rect" : [ 212.0, 232.333353999999986, 91.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "pattrvis.js",
 						"parameter_enable" : 0
@@ -463,7 +509,7 @@
 									"numinlets" : 13,
 									"numoutlets" : 13,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 50.0, 56.0, 128.0, 156.0 ],
+									"patching_rect" : [ 50.0, 56.0, 131.0, 156.0 ],
 									"text" : "routepass speed_active loop_length start_beat end_beat tempo speed_numerator speed_denominator loop_section_active loop_section_beats semitone_range max_continuity beat_list_dict_name"
 								}
 
@@ -590,7 +636,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 200.0, 225.333353999999986, 132.0, 22.0 ],
+					"patching_rect" : [ 319.0, 232.333353999999986, 132.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -609,7 +655,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 31.0, 94.0, 188.0, 22.0 ],
+					"patching_rect" : [ 150.0, 101.0, 188.0, 22.0 ],
 					"text" : "routepass beat tempo"
 				}
 
@@ -832,7 +878,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1022.0, 163.0, 118.0, 35.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 0, 128 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1486,7 +1532,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 200.0, 158.0, 79.0, 22.0 ],
+					"patching_rect" : [ 319.0, 165.0, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1506,7 +1552,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 286.0, 128.0, 22.0 ],
+					"patching_rect" : [ 147.0, 293.0, 128.0, 22.0 ],
 					"text" : "djazz.beat_generator",
 					"varname" : "beat_generator"
 				}
@@ -1517,9 +1563,9 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 377.0, 130.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 147.0, 384.0, 130.0, 22.0 ],
 					"text" : "djazz.midi.beat_reader",
 					"varname" : "beat_reader"
 				}
@@ -1534,7 +1580,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 16.0, 30.0, 30.0 ]
+					"patching_rect" : [ 150.0, 19.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1546,12 +1592,33 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 457.0, 30.0, 30.0 ]
+					"patching_rect" : [ 147.0, 464.0, 30.0, 30.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-23", 0 ]
@@ -1560,22 +1627,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-25", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
+					"destination" : [ "obj-2", 1 ],
+					"midpoints" : [ 244.0, 156.5, 159.5, 156.5 ],
 					"source" : [ "obj-25", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
+					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-25", 2 ]
 				}
 
 			}
@@ -1604,6 +1672,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 267.5, 423.0, 48.75, 423.0, 48.75, 90.0, 80.0, 90.0 ],
+					"source" : [ "obj-5", 1 ]
 				}
 
 			}
