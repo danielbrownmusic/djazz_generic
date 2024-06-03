@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -111,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.0, 204.0, 55.0, 22.0 ],
+					"patching_rect" : [ 175.0, 204.0, 55.0, 22.0 ],
 					"text" : "name $1"
 				}
 
@@ -120,12 +120,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.0, 16.0, 30.0, 30.0 ]
+					"patching_rect" : [ 175.0, 16.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -133,11 +133,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 38.0, 16.0, 30.0, 30.0 ]
 				}
 
@@ -149,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 96.0, 93.0, 22.0 ],
+					"patching_rect" : [ 38.0, 96.0, 132.0, 22.0 ],
 					"text" : "fo.make_key #1"
 				}
 
@@ -186,6 +186,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
+					"midpoints" : [ 184.5, 244.0, 79.0, 244.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -218,16 +219,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "fo.make_key.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_antescofo_beat_dict_players/patchers/data_structures/factor_oracle",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

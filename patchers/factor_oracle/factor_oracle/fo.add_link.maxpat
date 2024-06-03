@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.0, 152.0, 86.0, 22.0 ],
+					"patching_rect" : [ 62.0, 152.0, 150.0, 22.0 ],
 					"text" : "pack NONE -1"
 				}
 
@@ -96,12 +96,12 @@
 				"box" : 				{
 					"comment" : "(int) new link target state",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 27.0, 30.0, 30.0 ]
+					"patching_rect" : [ 193.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -109,7 +109,7 @@
 				"box" : 				{
 					"comment" : "(sym) oracle dict name",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -122,11 +122,11 @@
 				"box" : 				{
 					"comment" : "(int) state",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 62.0, 15.0, 30.0, 30.0 ]
 				}
 
@@ -190,20 +190,12 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 286.5, 261.5, 71.5, 261.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "fo.make_key.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_antescofo_beat_dict_players/patchers/data_structures/factor_oracle",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
