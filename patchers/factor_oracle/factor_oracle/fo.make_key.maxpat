@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 102.0, 57.0, 22.0 ],
+					"patching_rect" : [ 90.333333333333343, 157.0, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -54,11 +54,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 211.0, 30.0, 30.0 ]
+					"patching_rect" : [ 51.0, 317.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -66,24 +66,25 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 56.0, 30.0, 30.0 ]
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 90.333333333333343, 59.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 56.0, 147.0, 90.0, 22.0 ],
-					"text" : "combine s :: #1"
+					"patching_rect" : [ 51.0, 217.0, 137.0, 35.0 ],
+					"text" : "combine states:: s :: #1 @triggers 1"
 				}
 
 			}
@@ -104,14 +105,12 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-1", 1 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
