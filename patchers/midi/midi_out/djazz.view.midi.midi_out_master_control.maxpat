@@ -428,7 +428,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 21.267857212036347, 367.608850197077572, 1189.864174485206604, 61.801277487022389 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.096276503593231, 31.18456793200744, 1186.029635113269705, 59.333332180976868 ],
+					"presentation_rect" : [ 5.096276503593231, 24.18456793200744, 1186.029635113269705, 59.333332180976868 ],
 					"varname" : "player_1",
 					"viewvisibility" : 1
 				}
@@ -631,7 +631,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "2448971-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "45570-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "5057-200.png",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG",
@@ -642,6 +656,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.view.factor_oracle_player_chords_and_continuity.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/factor_oracle_player",
+				"patcherrelativepath" : "../../factor_oracle_player",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

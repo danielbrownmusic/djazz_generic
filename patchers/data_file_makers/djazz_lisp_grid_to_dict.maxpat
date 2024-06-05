@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 100.0, 975.0, 559.0 ],
+		"rect" : [ 48.0, 100.0, 1279.0, 606.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,9 +62,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 789.416665500000022, 333.0, 177.666669000000013, 89.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 48.166669000000013, 4.0, 663.0, 35.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/djazz_user/scores/AllOfMe/AllOfMe.json\""
+					"presentation_rect" : [ 48.166669000000013, 4.0, 663.0, 22.0 ],
+					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_generic/djazz_user/scores/AllOfMe/AllOfMe.json\""
 				}
 
 			}
@@ -370,7 +369,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 48.166669000000013, 262.666668057441711, 663.0, 33.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/djazz_user/scores/AllOfMe/AllOfMe-new.json\""
+					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_generic/djazz_user/scores/AllOfMe/AllOfMe-new.json\""
 				}
 
 			}
@@ -1428,7 +1427,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1457,6 +1456,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 350.0, 286.0, 116.0, 22.0 ],
+													"text" : "combine -1 _ NONE"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-14",
 													"maxclass" : "newobj",
@@ -1803,6 +1814,13 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"destination" : [ "obj-43", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-13", 0 ],
 													"source" : [ "obj-10", 0 ]
 												}
@@ -1824,14 +1842,16 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-43", 0 ],
-													"source" : [ "obj-14", 0 ]
+													"destination" : [ "obj-1", 0 ],
+													"order" : 0,
+													"source" : [ "obj-39", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-10", 0 ],
+													"order" : 1,
 													"source" : [ "obj-39", 0 ]
 												}
 
@@ -1845,7 +1865,16 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-1", 2 ],
+													"order" : 0,
+													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-10", 1 ],
+													"order" : 1,
 													"source" : [ "obj-42", 0 ]
 												}
 
@@ -3550,7 +3579,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "du.dict_to_obj.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
