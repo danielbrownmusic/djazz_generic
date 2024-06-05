@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 423.0, 1089.0, 589.0 ],
+		"rect" : [ 427.0, 423.0, 224.0, 589.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "djazz.view.midi.factor_oracle_navigator.maxpat",
+					"name" : "djazz.view.factor_oracle_player_chords_and_continuity.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1417,14 +1417,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 3,
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
 					"order" : 2,
 					"source" : [ "obj-23", 0 ]
 				}
@@ -1432,7 +1424,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
@@ -1440,16 +1432,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"order" : 0,
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1550,9 +1535,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.view.midi.factor_oracle_navigator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi",
-				"patcherrelativepath" : ".",
+				"name" : "djazz.view.factor_oracle_player_chords_and_continuity.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/factor_oracle_player",
+				"patcherrelativepath" : "../factor_oracle_player",
 				"type" : "JSON",
 				"implicit" : 1
 			}
