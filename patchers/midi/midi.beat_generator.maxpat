@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-6",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 405.5, 13.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -52,25 +65,12 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-6",
-					"index" : 2,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 532.0, 13.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.0, 181.5, 95.0, 22.0 ],
+					"patching_rect" : [ 405.5, 99.0, 95.0, 22.0 ],
 					"text" : "djazz.analyzer"
 				}
 
@@ -90,7 +90,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -108,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 490.0, 314.5, 53.0, 22.0 ],
+					"patching_rect" : [ 298.0, 313.5, 53.0, 22.0 ],
 					"text" : "pattrhub"
 				}
 
@@ -480,7 +479,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 490.0, 248.833353999999986, 132.0, 22.0 ],
+					"patching_rect" : [ 298.0, 247.833353999999986, 132.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -496,11 +495,11 @@
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 82.0, 99.0, 427.0, 22.0 ],
-					"text" : "routepass beat tempo label beat_list_dict_name"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 82.0, 99.0, 235.0, 22.0 ],
+					"text" : "routepass beat tempo beat_list_dict_name"
 				}
 
 			}
@@ -1418,7 +1417,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 490.0, 181.5, 79.0, 22.0 ],
+					"patching_rect" : [ 298.0, 180.5, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1507,7 +1506,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 193.5, 232.5, 91.5, 232.5 ],
+					"midpoints" : [ 163.5, 232.5, 91.5, 232.5 ],
 					"source" : [ "obj-25", 1 ]
 				}
 
@@ -1522,32 +1521,25 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-25", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-25", 2 ]
+					"source" : [ "obj-25", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 397.5, 377.0, 91.5, 377.0 ],
+					"midpoints" : [ 235.5, 377.0, 91.5, 377.0 ],
 					"order" : 0,
-					"source" : [ "obj-25", 3 ]
+					"source" : [ "obj-25", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
-					"midpoints" : [ 397.5, 313.5, 91.5, 313.5 ],
+					"midpoints" : [ 235.5, 313.5, 91.5, 313.5 ],
 					"order" : 1,
-					"source" : [ "obj-25", 3 ]
+					"source" : [ "obj-25", 2 ]
 				}
 
 			}
@@ -1582,7 +1574,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 295.5, 232.75, 91.5, 232.75 ],
+					"midpoints" : [ 415.0, 232.75, 91.5, 232.75 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1604,8 +1596,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 541.5, 144.25, 371.5, 144.25 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

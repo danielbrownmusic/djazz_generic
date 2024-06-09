@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 127.0, 294.0, 1188.0, 547.0 ],
+		"rect" : [ 120.0, 131.0, 1010.0, 236.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -617,6 +617,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.074509803921569, 0.047058823529412, 0.047058823529412, 0.96 ],
+					"fontsize" : 14.0,
 					"id" : "obj-4",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -625,8 +626,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 153.0, 225.0, 440.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 440.0, 22.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 368.0, 43.0 ],
 					"rounded" : 32.0,
+					"spacing_y" : 8.0,
 					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16" ]
 				}
 
@@ -643,7 +645,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 611.0, 225.0, 334.0, 23.029216587543488 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 446.0, 0.0, 302.25, 22.0 ],
+					"presentation_rect" : [ 382.0, 0.0, 370.0, 43.0 ],
 					"setmode" : 3,
 					"ticks" : 8,
 					"vlabels" : 1

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 55.0, 682.0, 694.0, 324.0 ],
+		"rect" : [ 34.0, 100.0, 694.0, 324.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,10 +42,10 @@
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 189.228515625, 62.0, 22.0 ],
+					"patching_rect" : [ 172.0, 189.228515625, 66.0, 22.0 ],
 					"text" : "djazz.midi",
 					"varname" : "midi"
 				}
@@ -83,7 +83,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.5, 16.999999624999987, 30.0, 30.0 ]
 				}
 
@@ -96,7 +96,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.0, 16.999999624999987, 30.0, 30.0 ]
 				}
 
@@ -107,7 +107,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 19.0, 189.228515625, 102.0, 22.0 ],
 					"text" : "djazz.audio",
 					"varname" : "audio"
@@ -149,7 +149,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 530.0, 99.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1191, 174, 1654, 1083 ],
+						"client_rect" : [ 1251, 100, 1714, 1009 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -289,8 +289,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 276.5, 138.728515812500007, 181.5, 138.728515812500007 ],
+					"destination" : [ "obj-12", 1 ],
+					"midpoints" : [ 276.5, 152.728515812500007, 228.5, 152.728515812500007 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
