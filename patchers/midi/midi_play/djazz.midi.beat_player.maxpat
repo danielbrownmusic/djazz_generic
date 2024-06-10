@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 277.0, 529.0, 847.0, 470.0 ],
+		"rect" : [ 742.0, 541.0, 847.0, 470.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
+					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 93.0, 378.0, 69.0, 22.0 ],
-					"text" : "print NOTE"
+					"patching_rect" : [ 286.0, 386.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 332.0, 327.0, 41.0, 22.0 ],
+					"text" : "r LOG"
 				}
 
 			}
@@ -242,11 +254,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"linecount" : 9,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.5, 15.0, 119.0, 127.0 ],
+					"patching_rect" : [ 737.5, 15.0, 261.0, 100.0 ],
 					"text" : "(list: int int float int)\n1. track\n2. pitch transposition\n3. tempo\n4. note count\n5-end: notes\n(note: ontime pitch velocity duration channel)"
 				}
 
@@ -391,7 +403,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list: int int float int) 1. track 2. beat  3. tempo 4. pitch transposition",
+					"comment" : "(list: int int float int ... ) 1. track 2. pitch transposition 3. tempo 4. note count 5-end: notes (note: ontime pitch velocity duration channel)",
 					"id" : "obj-5",
 					"index" : 1,
 					"maxclass" : "inlet",
@@ -560,15 +572,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-210", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
 					"source" : [ "obj-210", 0 ]
 				}
 

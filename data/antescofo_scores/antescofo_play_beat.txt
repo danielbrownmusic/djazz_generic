@@ -18,6 +18,82 @@ $track_15 := tab []
 $track_16 := tab []
 
 
+
+
+
+
+whenever ($track_9)
+{
+     $track                   := $track_9[0]
+     $pitch_transposition     := $track_9[1]
+     $tempo                   := $track_9[2]
+     $note_count              := $track_9[3]
+
+     $track_data_length       := 4
+     $note_data_length        := 5
+     ;$beat_duration_in_ms     := 60000.0 / $tempo
+
+     group G @tempo := $tempo
+     {
+          forall $i in $note_count
+          {
+               $note_pos := $track_data_length + $note_data_length * $i;
+
+               $ontime   := $track_9[$note_pos + 0]; * $beat_duration_in_ms
+               $pitch    := $track_9[$note_pos + 1] + $pitch_transposition
+               $velocity := $track_9[$note_pos + 2]
+               $duration := $track_9[$note_pos + 3]; * $beat_duration_in_ms
+               $channel  := $track_9[$note_pos + 4]
+
+               LOG $tempo @tempo $ontime
+
+               § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          }
+     }
+     $track_9 := tab []
+}
+
+
+whenever ($track_10)
+{
+     $track                   := $track_10[0]
+     $pitch_transposition     := $track_10[1]
+     $tempo                   := $track_10[2]
+     $note_count              := $track_10[3]
+
+     $track_data_length       := 4
+     $note_data_length        := 5
+     ;$beat_duration_in_ms     := 60000.0 / $tempo
+
+     group G @tempo := $tempo
+     {
+          forall $i in $note_count
+          {
+               $note_pos := $track_data_length + $note_data_length * $i;
+
+               $ontime   := $track_10[$note_pos + 0]; * $beat_duration_in_ms
+               $pitch    := $track_10[$note_pos + 1] + $pitch_transposition
+               $velocity := $track_10[$note_pos + 2]
+               $duration := $track_10[$note_pos + 3]; * $beat_duration_in_ms
+               $channel  := $track_10[$note_pos + 4]
+
+               LOG $tempo @tempo $ontime
+
+               § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          }
+     }
+     $track_10 := tab []
+}
+
+
+
+
+
+
+
+
+/*
+
 whenever ($track_1)
 {
      $track                   := $track_1[0]
@@ -33,13 +109,13 @@ whenever ($track_1)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_1[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_1[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_1[$note_pos + 1] + $pitch_transposition
           $velocity := $track_1[$note_pos + 2]
-          $duration := $track_1[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_1[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_1[$note_pos + 4]
 
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_1 := tab []
@@ -61,13 +137,13 @@ whenever ($track_2)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_2[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_2[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_2[$note_pos + 1] + $pitch_transposition
           $velocity := $track_2[$note_pos + 2]
-          $duration := $track_2[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_2[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_2[$note_pos + 4]
 
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_2 := tab []
@@ -89,13 +165,13 @@ whenever ($track_3)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_3[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_3[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_3[$note_pos + 1] + $pitch_transposition
           $velocity := $track_3[$note_pos + 2]
-          $duration := $track_3[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_3[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_3[$note_pos + 4]
 
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_3 := tab []
@@ -116,13 +192,13 @@ whenever ($track_4)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_4[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_4[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_4[$note_pos + 1] + $pitch_transposition
           $velocity := $track_4[$note_pos + 2]
-          $duration := $track_4[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_4[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_4[$note_pos + 4]
           
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_4 := tab []
@@ -140,19 +216,21 @@ whenever ($track_5)
      $note_data_length        := 5
      $beat_duration_in_ms     := 60000.0 / $tempo
 
-     forall $i in $note_count
+     group G @tempo := $$tempo
      {
-          $note_pos := $track_data_length + $note_data_length * $i;
+          forall $i in $note_count
+          {
+               $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_5[$note_pos + 0] * $beat_duration_in_ms
-          $pitch    := $track_5[$note_pos + 1] + $pitch_transposition
-          $velocity := $track_5[$note_pos + 2]
-          $duration := $track_5[$note_pos + 3] * $beat_duration_in_ms
-          $channel  := $track_5[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+               $ontime   := $track_5[$note_pos + 0] * $beat_duration_in_ms
+               $pitch    := $track_5[$note_pos + 1] + $pitch_transposition
+               $velocity := $track_5[$note_pos + 2]
+               $duration := @round($track_5[$note_pos + 3] * $beat_duration_in_ms)
+               $channel  := $track_5[$note_pos + 4]
+               LOG $tempo $beat_duration_in_ms $ontime
+               § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
+          }
      }
-
      $track_5 := tab []
 }
 
@@ -172,13 +250,13 @@ whenever ($track_6)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_6[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_6[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_6[$note_pos + 1] + $pitch_transposition
           $velocity := $track_6[$note_pos + 2]
-          $duration := $track_6[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_6[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_6[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_6 := tab []
@@ -200,13 +278,13 @@ whenever ($track_7)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_7[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_7[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_7[$note_pos + 1] + $pitch_transposition
           $velocity := $track_7[$note_pos + 2]
-          $duration := $track_7[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_7[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_7[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_7 := tab []
@@ -228,13 +306,13 @@ whenever ($track_8)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_8[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_8[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_8[$note_pos + 1] + $pitch_transposition
           $velocity := $track_8[$note_pos + 2]
-          $duration := $track_8[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_8[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_8[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_8 := tab []
@@ -256,13 +334,13 @@ whenever ($track_9)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_9[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_9[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_9[$note_pos + 1] + $pitch_transposition
           $velocity := $track_9[$note_pos + 2]
-          $duration := $track_9[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_9[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_9[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_9 := tab []
@@ -284,13 +362,13 @@ whenever ($track_10)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_10[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_10[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_10[$note_pos + 1] + $pitch_transposition
           $velocity := $track_10[$note_pos + 2]
-          $duration := $track_10[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_10[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_10[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_10 := tab []
@@ -312,13 +390,13 @@ whenever ($track_11)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_11[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_11[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_11[$note_pos + 1] + $pitch_transposition
           $velocity := $track_11[$note_pos + 2]
-          $duration := $track_11[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_11[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_11[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_11 := tab []
@@ -340,13 +418,13 @@ whenever ($track_12)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_12[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_12[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_12[$note_pos + 1] + $pitch_transposition
           $velocity := $track_12[$note_pos + 2]
-          $duration := $track_12[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_12[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_12[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_12 := tab []
@@ -368,13 +446,13 @@ whenever ($track_13)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_13[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_13[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_13[$note_pos + 1] + $pitch_transposition
           $velocity := $track_13[$note_pos + 2]
-          $duration := $track_13[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_13[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_13[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_13 := tab []
@@ -396,13 +474,13 @@ whenever ($track_14)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_14[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_14[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_14[$note_pos + 1] + $pitch_transposition
           $velocity := $track_14[$note_pos + 2]
-          $duration := $track_14[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_14[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_14[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_14 := tab []
@@ -424,13 +502,13 @@ whenever ($track_15)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_15[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_15[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_15[$note_pos + 1] + $pitch_transposition
           $velocity := $track_15[$note_pos + 2]
-          $duration := $track_15[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_15[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_15[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_15 := tab []
@@ -452,20 +530,20 @@ whenever ($track_16)
      {
           $note_pos := $track_data_length + $note_data_length * $i;
 
-          $ontime   := $track_16[$note_pos + 0] * $beat_duration_in_ms
+          $ontime   := @round($track_16[$note_pos + 0] * $beat_duration_in_ms)
           $pitch    := $track_16[$note_pos + 1] + $pitch_transposition
           $velocity := $track_16[$note_pos + 2]
-          $duration := $track_16[$note_pos + 3] * $beat_duration_in_ms
+          $duration := @round($track_16[$note_pos + 3] * $beat_duration_in_ms)
           $channel  := $track_16[$note_pos + 4]
-
-          § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+          LOG $tempo $beat_duration_in_ms $ontime
+          § $ontime ms @command($outlet) $track $pitch $velocity $duration $channel
      }
 
      $track_16 := tab []
 }
 
 
-
+*/
 
 
 

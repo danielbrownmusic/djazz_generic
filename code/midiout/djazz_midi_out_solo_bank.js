@@ -39,6 +39,7 @@ function setvalueof()
     solos_ = arrayfromargs(arguments);
 
     var any = any_();
+    post ("changed\n");
     for (var i = 0; i < count; i++)
     {
         var msg     = ["track_", i, "::active"].join("");

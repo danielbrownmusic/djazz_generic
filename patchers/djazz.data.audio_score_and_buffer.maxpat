@@ -57,8 +57,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "0_AUDIO_BEAT_LIST", "0_AUDIO_BUFFER" ],
-					"patching_rect" : [ 39.0, 114.0, 192.0, 35.0 ],
+					"outlettype" : [ "AUDIO_TRACK_RECORD_AUDIO_BEAT_LIST", "AUDIO_TRACK_RECORD_AUDIO_BUFFER" ],
+					"patching_rect" : [ 39.0, 114.0, 272.0, 35.0 ],
 					"text" : "t #1_AUDIO_BEAT_LIST #1_AUDIO_BUFFER "
 				}
 
@@ -83,7 +83,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 34.0, 30.0, 30.0 ]
 				}
 
@@ -120,7 +120,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 647.0, 81.0, 213.0, 22.0 ],
+					"patching_rect" : [ 647.0, 81.0, 344.0, 22.0 ],
 					"text" : "combine #1 _ AUDIO_SCORE_ #0"
 				}
 
@@ -128,11 +128,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 357.0, 215.0, 158.0, 22.0 ],
+					"patching_rect" : [ 333.0, 215.0, 190.0, 49.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0,
@@ -146,11 +147,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 537.0, 215.0, 202.0, 22.0 ],
+					"patching_rect" : [ 537.0, 215.0, 234.0, 49.0 ],
 					"text" : "buffer~ #1_AUDIO_BUFFER 1000 2"
 				}
 
@@ -164,7 +166,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 27.0, 30.0, 30.0 ]
+					"patching_rect" : [ 333.0, 27.0, 30.0, 30.0 ]
 				}
 
 			}
