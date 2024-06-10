@@ -74,13 +74,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
-					"linecount" : 5,
 					"maxclass" : "newobj",
-					"numinlets" : 7,
-					"numoutlets" : 7,
-					"outlettype" : [ "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 12.0, 70.0, 119.0, 76.0 ],
-					"text" : "route loop_section_active loop_section_beats start_beat end_beat tempo metro"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 12.0, 70.0, 432.0, 22.0 ],
+					"text" : "route loop_section_active loop_section_beats start_beat end_beat initial_tempo"
 				}
 
 			}
@@ -150,8 +149,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.83333253333376, 349.0, 45.0, 35.0 ],
-					"text" : "tempo $1"
+					"patching_rect" : [ 614.83333253333376, 349.0, 79.0, 35.0 ],
+					"text" : "initial_tempo $1"
 				}
 
 			}
@@ -244,15 +243,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 599.33333253333376, 189.0, 50.0, 35.0 ],
+					"patching_rect" : [ 584.83333253333376, 190.0, 79.0, 35.0 ],
+					"restore" : [ 60.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 60.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr tempo",
-					"varname" : "tempo"
+					"text" : "pattr initial_tempo",
+					"varname" : "initial_tempo"
 				}
 
 			}

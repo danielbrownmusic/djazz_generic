@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 109.0, 169.0, 1035.0, 628.0 ],
+		"rect" : [ 659.0, 423.0, 1035.0, 628.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -57,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 795.0, 125.0, 68.0, 22.0 ],
+					"patching_rect" : [ 795.0, 125.0, 102.0, 22.0 ],
 					"text" : "t 1 b"
 				}
 
@@ -94,7 +95,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 31.0, 82.0, 379.0, 22.0 ],
-					"text" : "route bang tempo"
+					"text" : "route bang initial_tempo"
 				}
 
 			}
@@ -107,7 +108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 77.5, 268.5, 113.0, 35.0 ],
-					"text" : "antescofo_outlet_56441"
+					"text" : "antescofo_outlet_10153"
 				}
 
 			}
@@ -280,7 +281,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 158.5, 336.0, 371.0, 35.0 ],
-									"text" : "playstring \"@tempovar $beat( 60.00, 1) whenever ($beat) { @command($outlet) ($beat.tempo) }\""
+									"text" : "playstring \"@tempovar $beat( 135.00, 1) whenever ($beat) { @command($outlet) ($beat.tempo) }\""
 								}
 
 							}
@@ -522,7 +523,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 844.0, 264.0, 144.0, 22.0 ],
+					"patching_rect" : [ 878.0, 262.0, 144.0, 22.0 ],
 					"text" : "score antescofo_djazz.txt"
 				}
 
@@ -534,7 +535,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "float", "symbol", "bang" ],
-					"patching_rect" : [ 844.0, 535.0, 68.0, 22.0 ],
+					"patching_rect" : [ 844.0, 531.0, 68.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"IncomingOscPort" : 5678,
 						"Warning" : 1,
@@ -640,8 +641,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 853.5, 424.75, 853.5, 424.75 ],
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 887.5, 508.75, 853.5, 508.75 ],
 					"source" : [ "obj-4", 0 ]
 				}
 

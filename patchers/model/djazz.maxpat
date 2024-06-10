@@ -149,7 +149,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 530.0, 99.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 13, 518, 767, 1427 ],
+						"client_rect" : [ 1238, 100, 1701, 1009 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -289,8 +289,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
-					"midpoints" : [ 276.5, 152.728515812500007, 228.5, 152.728515812500007 ],
+					"destination" : [ "obj-16", 2 ],
+					"midpoints" : [ 276.5, 152.728515812500007, 111.5, 152.728515812500007 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

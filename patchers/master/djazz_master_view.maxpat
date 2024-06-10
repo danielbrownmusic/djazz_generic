@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 420.0, 150.0, 20.0 ],
+					"patching_rect" : [ 742.0, 644.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 340.916681533334213, 215.5, 53.0, 20.0 ],
 					"text" : "LABEL"
@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.0, 390.0, 150.0, 20.0 ],
+					"patching_rect" : [ 290.0, 333.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.916681533334213, 215.5, 54.0, 20.0 ],
 					"text" : "TEMPO"
@@ -74,7 +74,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 698.0, 630.0, 50.0, 22.0 ],
+					"patching_rect" : [ 551.0, 644.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.916681533334213, 240.75, 54.0, 22.0 ]
 				}
@@ -87,7 +87,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 698.0, 562.0, 73.0, 22.0 ],
+					"patching_rect" : [ 551.0, 576.0, 73.0, 22.0 ],
 					"text" : "route tempo"
 				}
 
@@ -250,7 +250,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 822.0, 562.0, 99.0, 22.0 ],
+					"patching_rect" : [ 633.0, 576.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -270,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 822.0, 630.0, 99.0, 22.0 ],
+					"patching_rect" : [ 633.0, 644.0, 99.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 336.916681533334213, 240.75, 57.0, 22.0 ]
 				}
@@ -1886,7 +1886,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 357.0, 128.0, 204.0, 22.0 ],
+									"patching_rect" : [ 255.0, 96.0, 204.0, 22.0 ],
 									"text" : "djazz_PARAMS_VIEW_master_view",
 									"textcolor" : [ 1.0, 0.792156862745098, 0.909803921568627, 1.0 ],
 									"varname" : "view"
@@ -1902,7 +1902,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.0, 124.5, 205.0, 22.0 ],
+									"patching_rect" : [ 24.0, 92.5, 205.0, 22.0 ],
 									"text" : "djazz_PARAMS_CTRL_master_view",
 									"textcolor" : [ 1.0, 0.792156862745098, 0.909803921568627, 1.0 ],
 									"varname" : "control"
@@ -1918,7 +1918,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.000005466665783, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 24.0, 17.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1930,7 +1930,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 356.999997466665775, 256.5, 30.0, 30.0 ]
+									"patching_rect" : [ 255.0, 162.5, 30.0, 30.0 ]
 								}
 
 							}
@@ -1942,7 +1942,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.000005466665783, 206.5, 30.0, 30.0 ]
+									"patching_rect" : [ 24.0, 162.5, 30.0, 30.0 ]
 								}
 
 							}
@@ -2397,7 +2397,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.916681533334213, 269.0, 328.0, 44.0 ],
+					"patching_rect" : [ 214.916681533334213, 269.0, 227.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 218.0, 230.416682000000009, 47.25 ],
 					"viewvisibility" : 1

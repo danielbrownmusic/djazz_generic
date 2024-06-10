@@ -1373,7 +1373,6 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-17",
-																	"int" : 1,
 																	"maxclass" : "gswitch2",
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
@@ -1694,6 +1693,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-26",
+													"int" : 1,
 													"maxclass" : "gswitch2",
 													"numinlets" : 2,
 													"numoutlets" : 2,
@@ -3246,8 +3246,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 477.499987017906165, 207.749990344047546, 59.0, 22.0 ],
-													"text" : "tempo $1"
+													"patching_rect" : [ 477.499987017906165, 207.749990344047546, 93.0, 22.0 ],
+													"text" : "initial_tempo $1"
 												}
 
 											}

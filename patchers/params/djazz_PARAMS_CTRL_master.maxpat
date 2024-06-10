@@ -45,8 +45,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 42.0, 86.0, 398.0, 22.0 ],
-					"text" : "route loop_section_active loop_section_beats start_beat end_beat tempo"
+					"patching_rect" : [ 42.0, 86.0, 432.0, 22.0 ],
+					"text" : "route loop_section_active loop_section_beats start_beat end_beat initial_tempo"
 				}
 
 			}
@@ -105,8 +105,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 629.5, 290.0, 59.0, 22.0 ],
-					"text" : "tempo $1"
+					"patching_rect" : [ 629.5, 290.0, 93.0, 22.0 ],
+					"text" : "initial_tempo $1"
 				}
 
 			}
@@ -230,15 +230,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 614.0, 151.0, 50.0, 35.0 ],
+					"patching_rect" : [ 599.916665666667086, 151.0, 78.0, 35.0 ],
+					"restore" : [ 135.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 60.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr tempo",
-					"varname" : "tempo"
+					"text" : "pattr initial_tempo",
+					"varname" : "initial_tempo"
 				}
 
 			}
