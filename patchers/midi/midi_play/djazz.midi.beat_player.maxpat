@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 742.0, 541.0, 847.0, 470.0 ],
+		"rect" : [ 265.0, 556.0, 847.0, 470.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 361.0, 162.0, 22.0 ],
+					"patching_rect" : [ 393.0, 369.0, 162.0, 22.0 ],
 					"text" : "print CALL TO ANTESCOFO"
 				}
 
@@ -96,7 +96,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -298,7 +298,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -568,15 +568,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-166", 0 ],
 					"midpoints" : [ 706.0, 258.000020080100967, 139.0, 258.000020080100967 ],
-					"order" : 1,
-					"source" : [ "obj-205", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
 					"source" : [ "obj-205", 0 ]
 				}
 
@@ -617,13 +608,6 @@
 					"midpoints" : [ 139.0, 183.000010040050483, 44.0, 183.000010040050483 ],
 					"order" : 1,
 					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
