@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 44.0, 237.0, 1645.0, 783.0 ],
+		"rect" : [ 90.0, 349.0, 1031.0, 390.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -460,9 +460,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-4", 0 ],
-					"watchpoint_flags" : 1,
-					"watchpoint_id" : 1
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

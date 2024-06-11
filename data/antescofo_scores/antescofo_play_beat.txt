@@ -19,19 +19,55 @@ $track_16 := tab []
 
 
 
-
-
-
-whenever ($track_9)
+whenever ($track_8) // @exclusive
 {
-     $track                   := $track_9[0]
-     $pitch_transposition     := $track_9[1]
-     $tempo                   := $track_9[2]
-     $note_count              := $track_9[3]
+     @local
+           $track                   := $track_8[0],
+           $pitch_transposition     := $track_8[1],
+           $tempo                   := 135, ; $track_8[2],
+           $note_count              := $track_8[3],
 
-     $track_data_length       := 4
-     $note_data_length        := 5
-     ;$beat_duration_in_ms     := 60000.0 / $tempo
+           $track_data_length       := 4,
+           $note_data_length        := 5,
+
+           $beat_duration_in_ms     := 60000.0 / $tempo
+
+     group G @tempo := $tempo
+     {
+          forall $i in $note_count
+          {
+               @local
+                    $note_pos := $track_data_length + $note_data_length * $i,
+     
+                    $ontime   := $track_8[$note_pos + 0], ; * $beat_duration_in_ms,
+                    $pitch    := $track_8[$note_pos + 1] + $pitch_transposition,
+                    $velocity := $track_8[$note_pos + 2],
+                    $duration := @round($track_8[$note_pos + 3] * $beat_duration_in_ms),
+                    $channel  := $track_8[$note_pos + 4]
+
+               LOG $tempo "@tempo" launch at ($NOW + $ontime) $duration
+
+               $ontime @command($outlet) $track $pitch $velocity $duration $channel
+                       @print("--" , $NOW, "@tempo ",  $tempo, " duration ", $duration, " pitch ", $pitch, " velocity ", $velocity)
+          }
+     }
+     $track_8 := tab []
+}
+
+/*
+
+whenever ($track_9) // @exclusive
+{
+     @local
+           $track                   := $track_9[0],
+           $pitch_transposition     := $track_9[1],
+           $tempo                   := $track_9[2],
+           $note_count              := $track_9[3],
+
+           $track_data_length       := 4,
+           $note_data_length        := 5
+
+           ;$beat_duration_in_ms     := 60000.0 / $tempo
 
      group G @tempo := $tempo
      {
@@ -47,7 +83,7 @@ whenever ($track_9)
 
                LOG $tempo @tempo $ontime
 
-               § $ontime @command($outlet) $track $pitch $velocity $duration $channel
+               $ontime @command($outlet) $track $pitch $velocity $duration $channel
           }
      }
      $track_9 := tab []
@@ -85,6 +121,7 @@ whenever ($track_10)
      $track_10 := tab []
 }
 
+*/
 
 
 

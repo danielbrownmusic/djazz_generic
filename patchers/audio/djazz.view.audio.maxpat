@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 46.0, 152.0, 1434.0, 679.0 ],
+		"rect" : [ 76.0, 378.0, 1425.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 25.333316385746002, 147.541651396633142, 1190.0, 412.0 ],
+					"patching_rect" : [ 25.333316385746002, 181.541651396633142, 1181.0, 377.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 87.293609000000004, 1221.0, 376.0 ],
 					"varname" : "audio_out",
@@ -72,7 +72,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -207,7 +207,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 449.333316385746002, 48.918431298328414, 61.0, 22.0 ],
+					"patching_rect" : [ 349.333316385746002, 24.282415418506616, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -235,9 +235,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 635.5, 28.979498499488841, 1276.0, 73.334449291229248 ],
+					"patching_rect" : [ 426.5, 24.282415418506616, 1079.0, 69.477703605915053 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.096404044510109, -0.706391277371722, 1092.415645996630928, 74.0 ],
+					"presentation_rect" : [ 4.0, 0.0, 1081.415645999999924, 69.0 ],
 					"varname" : "audio_in",
 					"viewvisibility" : 1
 				}
@@ -252,7 +252,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 72.333316385746002, 17.782415418506616, 30.0, 30.0 ]
+					"patching_rect" : [ 72.333316385746002, 24.282415418506616, 30.0, 30.0 ]
 				}
 
 			}
@@ -265,7 +265,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.333316385746002, 17.782415418506616, 30.0, 30.0 ]
+					"patching_rect" : [ 25.333316385746002, 24.282415418506616, 30.0, 30.0 ]
 				}
 
 			}
@@ -277,7 +277,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 463.416680634021759, 6.375633403732309, 30.0, 30.0 ]
+					"patching_rect" : [ 372.416680634021759, 125.61986586320495, 30.0, 30.0 ]
 				}
 
 			}
@@ -289,7 +289,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.166680634021759, 6.375633403732309, 30.0, 30.0 ]
+					"patching_rect" : [ 329.166680634021759, 125.61986586320495, 30.0, 30.0 ]
 				}
 
 			}
@@ -300,7 +300,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.333316385746002, 125.541651396633142, 74.0, 20.0 ],
+					"patching_rect" : [ 233.749998927116394, 134.76011902442167, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1110.903595955489891, -0.706391277371722, 73.0, 20.0 ],
 					"text" : "AUDIO ON",
@@ -316,7 +316,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 280.999998927116394, 88.957202105403894, 21.5, 21.5 ],
+					"patching_rect" : [ 259.999998927116394, 97.957202105403894, 21.5, 21.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1114.807191910979782, 21.293608722628278, 47.0, 47.0 ],
 					"varname" : "led[1]"
@@ -331,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 249.499998927116394, 15.282415418506616, 82.0, 35.0 ],
+					"patching_rect" : [ 228.499998927116394, 24.282415418506616, 82.0, 35.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -350,7 +350,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 142.166680634021759, 91.61986586320495, 53.0, 22.0 ],
+					"patching_rect" : [ 142.166680634021759, 125.61986586320495, 53.0, 22.0 ],
 					"text" : "pattrhub"
 				}
 
@@ -364,7 +364,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 142.166680634021759, 17.782415418506616, 30.0, 30.0 ]
+					"patching_rect" : [ 142.166680634021759, 24.282415418506616, 30.0, 30.0 ]
 				}
 
 			}
@@ -379,6 +379,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
+					"midpoints" : [ 81.833316385746002, 167.162033407569879, 1196.833316385746002, 167.162033407569879 ],
 					"source" : [ "obj-11", 0 ]
 				}
 

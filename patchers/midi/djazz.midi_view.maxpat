@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 221.0, 327.0, 1432.0, 983.0 ],
+		"rect" : [ 95.0, 106.0, 2019.0, 1120.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,9 +66,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 15.0, 66.333331704139709, 2403.333348631858826, 1041.666669368743896 ],
+					"patching_rect" : [ 15.0, 66.333331704139709, 1304.666649222373962, 1420.333347320556641 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.030799911674499, 17.6666659116745, 1295.333318710327148, 1400.333350419998169 ],
+					"presentation_rect" : [ -1.969200088325501, -0.3333340883255, 1604.666652321815491, 1405.333350419998169 ],
 					"varname" : "midi_out",
 					"viewvisibility" : 1
 				}

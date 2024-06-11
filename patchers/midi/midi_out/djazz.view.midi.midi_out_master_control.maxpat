@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 129.0, 1326.0, 602.0 ],
+		"rect" : [ 134.0, 129.0, 1376.0, 694.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,82 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-6",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 1207.132031697242837, 380.509488940588767, 45.0, 45.0 ],
+					"pic" : "2650315-200.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 1237.12591161686305, 97.527389053573074, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-4",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 1207.132031697242837, 298.0, 45.0, 45.0 ],
+					"pic" : "2650315-200.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 1237.12591161686305, 32.851234022495873, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "djazz_transpose_octave_controller.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1254.132031697242837, 377.6666637063027, 306.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1284.12591161686305, 94.684563819287007, 306.0, 48.0 ],
+					"varname" : "add_octaves_2",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-5",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "djazz_transpose_octave_controller.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1254.132031697242837, 298.0, 306.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1284.12591161686305, 32.851234022495873, 306.0, 48.0 ],
+					"varname" : "add_octaves_1",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -62,7 +138,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -235,7 +311,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -426,7 +502,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 21.267857212036347, 367.608850197077572, 1189.864174485206604, 61.801277487022389 ],
+					"patching_rect" : [ 21.267857212036347, 367.608850197077572, 1183.864174485206604, 60.801277487022389 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.096276503593231, 27.18456793200744, 1243.029635113269705, 59.333332180976868 ],
 					"varname" : "player_1",
@@ -498,7 +574,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 21.267857212036347, 285.942186431170342, 1189.864174485206604, 62.801277606231622 ],
+					"patching_rect" : [ 21.267857212036347, 285.942186431170342, 1183.864174485206604, 61.801277606231622 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.096276503593231, 88.517900112984307, 1244.029635113269705, 59.333332180976868 ],
 					"varname" : "player_2",
@@ -592,6 +668,17 @@
 			"obj-10::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2", "midi_player_1_speed_button_3/2", 0 ],
 			"obj-10::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2", "midi_player_1_speed_button_2", 0 ],
 			"obj-10::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4", "midi_player_1_speed_button_4", 0 ],
+			"obj-1::obj-10" : [ "octave_up[1]", "octave_up", 0 ],
+			"obj-1::obj-11::obj-7" : [ "octave_up_2[1]", "octave_up_2", 0 ],
+			"obj-1::obj-12::obj-7" : [ "octave_up_3[1]", "octave_up_3", 0 ],
+			"obj-1::obj-13::obj-7" : [ "octave_up_4[1]", "octave_up_4", 0 ],
+			"obj-1::obj-14::obj-7" : [ "octave_down_1[1]", "octave_down_1", 0 ],
+			"obj-1::obj-15::obj-7" : [ "octave_down_2[1]", "octave_down_2", 0 ],
+			"obj-1::obj-16::obj-7" : [ "octave_down_3[1]", "octave_down_3", 0 ],
+			"obj-1::obj-17::obj-7" : [ "octave_down_4[1]", "octave_down_4", 0 ],
+			"obj-1::obj-18" : [ "octave_down[1]", "octave_down", 0 ],
+			"obj-1::obj-24::obj-7" : [ "no_octave[1]", "no_octave", 0 ],
+			"obj-1::obj-6::obj-7" : [ "octave_up_1[1]", "octave_up_1", 0 ],
 			"obj-25::obj-15::obj-12::obj-7" : [ "midi_player_1_loop_5[1]", "midi_player_1_loop_5", 0 ],
 			"obj-25::obj-15::obj-13::obj-7" : [ "midi_player_1_loop_6[1]", "midi_player_1_loop_6", 0 ],
 			"obj-25::obj-15::obj-14::obj-7" : [ "midi_player_1_loop_7[1]", "midi_player_1_loop_7", 0 ],
@@ -604,6 +691,17 @@
 			"obj-25::obj-17::obj-37::obj-7" : [ "midi_player_1_speed_button_3/2[1]", "midi_player_1_speed_button_3/2", 0 ],
 			"obj-25::obj-17::obj-38::obj-7" : [ "midi_player_1_speed_button_2[1]", "midi_player_1_speed_button_2", 0 ],
 			"obj-25::obj-17::obj-39::obj-7" : [ "midi_player_1_speed_button_4[1]", "midi_player_1_speed_button_4", 0 ],
+			"obj-5::obj-10" : [ "octave_up", "octave_up", 0 ],
+			"obj-5::obj-11::obj-7" : [ "octave_up_2", "octave_up_2", 0 ],
+			"obj-5::obj-12::obj-7" : [ "octave_up_3", "octave_up_3", 0 ],
+			"obj-5::obj-13::obj-7" : [ "octave_up_4", "octave_up_4", 0 ],
+			"obj-5::obj-14::obj-7" : [ "octave_down_1", "octave_down_1", 0 ],
+			"obj-5::obj-15::obj-7" : [ "octave_down_2", "octave_down_2", 0 ],
+			"obj-5::obj-16::obj-7" : [ "octave_down_3", "octave_down_3", 0 ],
+			"obj-5::obj-17::obj-7" : [ "octave_down_4", "octave_down_4", 0 ],
+			"obj-5::obj-18" : [ "octave_down", "octave_down", 0 ],
+			"obj-5::obj-24::obj-7" : [ "no_octave", "no_octave", 0 ],
+			"obj-5::obj-6::obj-7" : [ "octave_up_1", "octave_up_1", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -632,6 +730,13 @@
 			}
 , 			{
 				"name" : "2448971-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2650315-200.png",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG",
@@ -715,6 +820,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "djazz_transpose_octave_controller.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic",
+				"patcherrelativepath" : "../../..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "key_msg.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools",
 				"patcherrelativepath" : "../../tools",
@@ -729,7 +841,9 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.541176470588235, 0.552941176470588, 0.564705882352941, 1.0 ],
+		"editing_bgcolor" : [ 0.541176470588235, 0.552941176470588, 0.564705882352941, 1.0 ]
 	}
 
 }
