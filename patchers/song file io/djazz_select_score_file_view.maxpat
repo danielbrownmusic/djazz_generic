@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 881.0, 397.0, 704.0, 685.0 ],
+		"rect" : [ 332.0, 100.0, 1125.0, 981.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,9 +40,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 707.0, 553.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"hilite" : 0,
+					"hltcolor" : [ 1.0, 0.576470588235294, 0.0, 0.58 ],
+					"id" : "obj-4",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 735.0, 481.0, 39.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 300.0, -3.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -99,13 +128,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -323,7 +352,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -464,7 +493,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 407.5, 287.5, 93.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.75, 0.0, 38.5, 22.0 ],
+					"presentation_rect" : [ 1.75, 1.0, 38.5, 22.0 ],
 					"text" : "new"
 				}
 
@@ -503,7 +532,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 566.0, 287.5, 58.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.25, 0.0, 35.0, 22.0 ],
+					"presentation_rect" : [ 246.25, 1.0, 35.0, 22.0 ],
 					"text" : "Last",
 					"texton" : "Last"
 				}
@@ -513,7 +542,7 @@
 				"box" : 				{
 					"comment" : "(symbol) full path of chosen score file; \"clear\" if cleared",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -550,7 +579,7 @@
 				"box" : 				{
 					"comment" : "(symbol) full path of song folder",
 					"id" : "obj-21",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -601,9 +630,25 @@
 					"pattrmode" : 1,
 					"prefix" : "~/Documents/Max 8/Projects/djazz_db/user/scores/AutumnleavesDoMin/grid",
 					"presentation" : 1,
-					"presentation_rect" : [ 41.25, 0.0, 200.0, 22.0 ],
+					"presentation_rect" : [ 42.25, 1.0, 200.0, 22.0 ],
 					"types" : "TEXT",
 					"varname" : "umenu[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"background" : 1,
+					"id" : "obj-7",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 707.0, 481.0, 35.0, 34.0 ],
+					"pic" : "song_folder.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 300.0, -3.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -700,6 +745,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 467.0, 586.0, 577.5, 586.0, 577.5, 446.0, 278.0, 446.0 ],
 					"source" : [ "obj-26", 0 ]
@@ -765,6 +817,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -778,7 +837,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "song_folder.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

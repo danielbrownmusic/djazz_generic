@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 140.0, 320.0, 626.0, 648.0 ],
+		"rect" : [ 287.0, 353.0, 373.0, 648.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,23 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"handoff" : "",
+					"hltcolor" : [ 1.0, 0.576470588235294, 0.0, 0.63 ],
+					"id" : "obj-13",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 75.999999999999972, 277.0, 26.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 22.0, 22.0 ],
+					"toggle" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -642,7 +659,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.0, 348.0, 77.0, 22.0 ],
+					"patching_rect" : [ 44.499999999999972, 348.0, 77.0, 22.0 ],
 					"text" : "improvise $1"
 				}
 
@@ -656,20 +673,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.999999999999972, 219.0, 41.0, 22.0 ],
 					"text" : "set $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "led",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 46.999999999999972, 280.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.910652756690979, 23.453608274459839, 22.0, 22.0 ]
 				}
 
 			}
@@ -732,7 +735,7 @@
 					"patching_rect" : [ 269.666666666666686, 282.0, 26.0, 22.0 ],
 					"pic" : "5057-200.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 68.530926356712996, 2.804123550653458, 32.701030552387238, 19.293814584612846 ]
+					"presentation_rect" : [ 28.0, 0.0, 32.0, 22.0 ]
 				}
 
 			}
@@ -747,7 +750,7 @@
 					"patching_rect" : [ 157.333333333333343, 280.0, 20.0, 22.0 ],
 					"pic" : "2448971-200.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 155.187286098798154, 3.835051327943802, 20.0, 16.587629169225693 ]
+					"presentation_rect" : [ 157.0, 0.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -786,7 +789,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 455.666666666666686, 176.0, 43.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.185566643873869, 23.453608274459839, 43.0, 22.0 ],
+					"presentation_rect" : [ 61.0, 0.0, 40.0, 22.0 ],
 					"text" : "MAX",
 					"texton" : "MAX"
 				}
@@ -802,7 +805,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 311.666666666666686, 282.0, 43.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.185566643873869, 23.453608274459839, 43.0, 22.0 ]
+					"presentation_rect" : [ 103.0, 0.0, 44.0, 22.0 ]
 				}
 
 			}
@@ -816,12 +819,35 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 179.333333333333343, 280.0, 43.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 143.687286098798154, 23.453608274459839, 43.0, 22.0 ]
+					"presentation_rect" : [ 181.0, 0.0, 44.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"background" : 1,
+					"id" : "obj-6",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 46.999999999999972, 277.0, 22.0, 22.0 ],
+					"pic" : "15838-200.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 22.0, 22.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-14", 0 ]
@@ -886,14 +912,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -966,6 +985,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "15838-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "2448971-200.png",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
 				"patcherrelativepath" : "../../media",
