@@ -45,8 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 35.0, 80.0, 140.0, 22.0 ],
-					"text" : "route transpose_octaves"
+					"patching_rect" : [ 35.0, 80.0, 124.0, 22.0 ],
+					"text" : "route transpose_pitch"
 				}
 
 			}
@@ -94,8 +94,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 415.0, 139.0, 22.0 ],
-					"text" : "transpose_semitones $1"
+					"patching_rect" : [ 35.0, 415.0, 110.0, 22.0 ],
+					"text" : "transpose_pitch $1"
 				}
 
 			}
@@ -463,22 +463,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 35.0, 284.0, 42.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.219157999999993, 0.0, 42.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autofit" : 1,
-					"id" : "obj-2",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 86.780842000000007, 284.0, 18.0, 22.0 ],
-					"pic" : "2448971-200.png",
-					"presentation" : 1,
-					"presentation_rect" : [ 1.125912000000028, 0.0, 19.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 42.0, 22.0 ]
 				}
 
 			}
@@ -547,14 +532,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "2448971-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/media",
-				"patcherrelativepath" : "../../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 

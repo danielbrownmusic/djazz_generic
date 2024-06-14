@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 92.0, 170.0, 1496.0, 905.0 ],
+		"rect" : [ 92.0, 170.0, 1037.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -63,7 +63,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 315.0, 175.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 84.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 80.0, 20.0 ],
 					"text" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "",
@@ -80,7 +80,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 512.0, 517.5, 18.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 71.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 70.0, 18.0, 20.0 ],
 					"text" : "S",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -345,7 +345,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 942.5, 117.0, 98.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.0, 84.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 20.0, 80.0, 20.0 ],
 					"varname" : "outport",
 					"viewvisibility" : 1
 				}
@@ -834,7 +834,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1095.0, 196.5, 80.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 40.0, 84.0, 20.0 ]
+					"presentation_rect" : [ 0.0, 40.0, 80.0, 20.0 ]
 				}
 
 			}
@@ -1154,7 +1154,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 755.5, 515.0, 18.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.5, 71.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 50.5, 70.0, 19.0, 20.0 ],
 					"text" : "M",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1173,7 +1173,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 732.5, 495.5, 64.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 60.0, 42.0, 42.0 ],
+					"presentation_rect" : [ 40.0, 60.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -1205,7 +1205,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 489.0, 495.5, 64.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 60.0, 42.0, 42.0 ],
+					"presentation_rect" : [ 0.0, 60.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],

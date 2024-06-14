@@ -172,7 +172,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 380.0, 271.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 182.333333373069763, 0.0, 22.0, 22.0 ]
+					"presentation_rect" : [ 175.333333373069763, 0.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -237,7 +237,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 206.0, 271.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 145.333333373069763, 0.0, 35.0, 22.0 ]
+					"presentation_rect" : [ 138.333333373069763, 0.0, 35.0, 22.0 ]
 				}
 
 			}
@@ -252,7 +252,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 43.5, 271.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.333333373069763, 0.0, 35.0, 22.0 ]
+					"presentation_rect" : [ 101.333333373069763, 0.0, 35.0, 22.0 ]
 				}
 
 			}
@@ -695,7 +695,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"order" : 0,
+					"order" : 3,
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -704,14 +704,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"midpoints" : [ 593.5, 422.25, 593.5, 422.25 ],
-					"order" : 3,
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
 					"order" : 2,
 					"source" : [ "obj-27", 0 ]
 				}
@@ -719,8 +711,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"order" : 1,
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 0,
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -845,19 +845,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "djazz.view.speed_button.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/gui",
