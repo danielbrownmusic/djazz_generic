@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 331.0, 100.0, 733.0, 249.0 ],
+		"rect" : [ 134.0, 156.0, 871.0, 407.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -535,7 +535,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 196.0, 231.0, 640.0, 480.0 ],
+						"rect" : [ 90.0, 153.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7506,13 +7506,13 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "djazz.view.audio.audio_in.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 356.166680634021759, 121.063901406267178, 867.999996304512024, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 53.0, 1214.0, 22.0 ],
+					"varname" : "djazz.view.audio.audio_in",
 					"viewvisibility" : 1
 				}
 
@@ -7732,23 +7732,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"order" : 0,
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"order" : 1,
 					"source" : [ "obj-27", 0 ]
 				}
 

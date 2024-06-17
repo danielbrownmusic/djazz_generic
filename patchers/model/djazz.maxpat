@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 498.0, 422.0, 324.0 ],
+		"rect" : [ 112.0, 698.0, 422.0, 324.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -83,7 +83,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 60.5, 16.999999624999987, 30.0, 30.0 ]
 				}
 
@@ -96,7 +96,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 19.0, 16.999999624999987, 30.0, 30.0 ]
 				}
 
@@ -149,7 +149,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 530.0, 99.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1289, 101, 1727, 1009 ],
+						"client_rect" : [ 755, 102, 1218, 1011 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]

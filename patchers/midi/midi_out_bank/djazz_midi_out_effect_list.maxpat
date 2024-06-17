@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,13 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 67.0, 125.0, 22.0 ],
+					"text" : "djazz.transpose_pitch"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 96.0, 108.0, 22.0 ],
-					"text" : "djazz.add_octaves",
+					"patching_rect" : [ 25.0, 96.0, 135.0, 22.0 ],
+					"text" : "djazz.transpose_octave",
 					"varname" : "add_octaves"
 				}
 
