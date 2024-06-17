@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 536.0, 350.0, 588.0, 582.0 ],
+		"rect" : [ 224.0, 203.0, 733.0, 745.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1420,7 +1420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.736108880790653, 486.0, 79.0, 22.0 ],
+					"patching_rect" : [ 125.736108880790653, 498.0, 79.0, 22.0 ],
 					"text" : "prepend beat"
 				}
 
@@ -1458,7 +1458,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.736108880790653, 432.79166735762783, 151.0, 22.0 ],
+					"patching_rect" : [ 125.736108880790653, 444.79166735762783, 151.0, 22.0 ],
 					"text" : "djazz.loop_previous_beats",
 					"varname" : "loop"
 				}
@@ -1499,7 +1499,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.736108880790653, 533.79166735762783, 30.0, 30.0 ]
+					"patching_rect" : [ 125.736108880790653, 545.79166735762783, 30.0, 30.0 ]
 				}
 
 			}
