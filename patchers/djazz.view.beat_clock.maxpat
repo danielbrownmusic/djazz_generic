@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 119.0, 749.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 100.0, 102.0, 30.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.85275, 0.0, 24.0, 22.0 ],
+					"presentation_rect" : [ -4.14725, 0.0, 24.0, 22.0 ],
 					"text" : "4"
 				}
 
@@ -79,6 +79,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Webdings",
 					"fontsize" : 18.0,
 					"id" : "obj-10",
@@ -90,7 +91,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 254.236226017000718, 217.0, 33.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.144416570663452, 0.0, 29.0, 22.0 ],
+					"presentation_rect" : [ 112.397960528373105, 0.0, 29.0, 22.0 ],
 					"text" : "q",
 					"texton" : "q"
 				}
@@ -238,7 +239,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.499999400000434, 217.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.144416570663452, 0.0, 43.0, 22.0 ]
+					"presentation_rect" : [ 65.125355264186553, 0.0, 43.0, 22.0 ]
 				}
 
 			}
@@ -252,7 +253,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 55.75, 217.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 43.0, 22.0 ]
+					"presentation_rect" : [ 17.85275, 0.0, 43.0, 22.0 ]
 				}
 
 			}
@@ -290,7 +291,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 501.740121730168539, 217.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 198.943171056746223, 0.0, 43.0, 22.0 ]
+					"presentation_rect" : [ 192.943171056746223, 0.0, 43.0, 22.0 ]
 				}
 
 			}
@@ -304,7 +305,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 375.490121730168539, 217.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 153.043793813704838, 0.0, 43.0, 22.0 ]
+					"presentation_rect" : [ 145.670565792559671, 0.0, 43.0, 22.0 ]
 				}
 
 			}

@@ -361,7 +361,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 586.5, 18.0, 112.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"saved_object_attributes" : 									{
 										"initial" : [ 0 ],
 										"parameter_enable" : 0,
@@ -382,7 +381,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 524.0, 18.0, 36.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"saved_object_attributes" : 									{
 										"initial" : [ 0 ],
 										"parameter_enable" : 0,
@@ -403,7 +401,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 819.0, 16.0, 71.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"saved_object_attributes" : 									{
 										"initial" : [ 0 ],
 										"parameter_enable" : 0,
@@ -424,7 +421,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 752.0, 16.0, 45.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"saved_object_attributes" : 									{
 										"initial" : [ 0.0 ],
 										"parameter_enable" : 0,
@@ -1700,7 +1696,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 273.324405000000013, 654.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.0, 0.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 606.0, 0.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1753,7 +1749,7 @@
 					"patching_rect" : [ 238.933100652174232, 654.5, 26.0, 22.0 ],
 					"pic" : "5057-200.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 571.000000059604645, 0.0, 21.0, 22.0 ]
+					"presentation_rect" : [ 581.000000059604645, 0.0, 21.0, 22.0 ]
 				}
 
 			}
@@ -1768,7 +1764,7 @@
 					"patching_rect" : [ 127.903912040816238, 533.5, 20.0, 22.0 ],
 					"pic" : "2448971-200.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 698.0, 1.0, 22.0, 20.0 ]
+					"presentation_rect" : [ 701.0, 1.0, 22.0, 20.0 ]
 				}
 
 			}
@@ -1783,7 +1779,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 377.324405000000013, 654.5, 43.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 650.0, 0.0, 40.0, 22.0 ],
+					"presentation_rect" : [ 660.0, 0.0, 40.0, 22.0 ],
 					"text" : "MAX",
 					"texton" : "MAX"
 				}
@@ -1813,7 +1809,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 149.903912040816238, 533.5, 43.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 722.0, 0.0, 44.0, 22.0 ],
+					"presentation_rect" : [ 725.0, 0.0, 44.0, 22.0 ],
 					"varname" : "number[2]"
 				}
 
@@ -3013,7 +3009,7 @@
 					"outlettype" : [ "int", "int", "", "" ],
 					"patching_rect" : [ 768.108695652173992, 88.608850197077572, 237.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1044.108695652173992, -2.0, 237.0, 27.0 ],
+					"presentation_rect" : [ 1020.108695652173992, 0.0, 237.0, 24.0 ],
 					"varname" : "djazz_master_clock_view_ctrl",
 					"viewvisibility" : 1
 				}

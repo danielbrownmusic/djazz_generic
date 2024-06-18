@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 137.0, 160.0, 656.0, 887.0 ],
+		"rect" : [ 835.0, 181.0, 656.0, 887.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -523,8 +523,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.5, 187.0, 147.0, 100.0 ],
-					"text" : "INLET:\n(list: \"beat\"  int int float)\n1. \"beat\"\n2. beat \n3. pitch transposition\n4. tempo\n"
+					"patching_rect" : [ 318.5, 187.0, 147.0, 87.0 ],
+					"text" : "INLET:\n(list: \"beat\"  int int float)\n1. \"beat\"\n2. beat \n3. pitch transposition\n4. tempo"
 				}
 
 			}
@@ -1457,7 +1457,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 155.0, 475.573171000000002, 67.0, 475.573171000000002 ],
+					"midpoints" : [ 155.0, 482.573171000000002, 67.0, 482.573171000000002 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1494,7 +1494,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 67.0, 554.573171000000002, 67.0, 554.573171000000002 ],
 					"source" : [ "obj-263", 0 ]
 				}
 
