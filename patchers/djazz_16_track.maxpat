@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 100.0, 543.0, 921.0 ],
+		"rect" : [ 52.0, 100.0, 543.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1091,6 +1091,13 @@
 			}
 , 			{
 				"name" : "djazz.view_parameters.audio.data_loader.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.view_parameters.audio_beat_generator.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

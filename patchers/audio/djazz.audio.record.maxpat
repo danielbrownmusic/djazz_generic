@@ -41,12 +41,24 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-10",
+					"id" : "obj-2",
 					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.250003730889603, 301.0, 30.0, 30.0 ]
+					"patching_rect" : [ 23.750003730889603, 290.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-10",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 178.250003730889603, 290.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -57,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 567.0, 27.021421019551781, 150.0, 87.0 ],
+					"patching_rect" : [ 473.0, 16.021421019551781, 150.0, 87.0 ],
 					"text" : "audio_buffer_name audio_score_dict_name\nbeat \ninitial_tempo song_dict_name loop_section_beats  "
 				}
 
@@ -4268,7 +4280,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 45.250003730889603, 218.0, 48.0, 22.0 ],
+					"patching_rect" : [ 178.250003730889603, 207.0, 48.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4909,30 +4921,6 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-15",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 46.0, 289.0, 138.0, 22.0 ],
-													"text" : "recorded_buffer_size $1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-13",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 304.5, 299.0, 118.0, 22.0 ],
-													"text" : "initial_buffer_size $1"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-4",
 													"maxclass" : "message",
 													"numinlets" : 2,
@@ -5170,19 +5158,35 @@
 												}
 
 											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"midpoints" : [ 314.0, 352.00000161865853, 55.5, 352.00000161865853 ],
-													"source" : [ "obj-13", 0 ]
+, 											{
+												"box" : 												{
+													"id" : "obj-10",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 46.0, 308.0, 89.0, 22.0 ],
+													"text" : "prepend crop 0"
 												}
 
 											}
 , 											{
+												"box" : 												{
+													"id" : "obj-9",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 304.5, 308.0, 93.0, 22.0 ],
+													"text" : "prepend setsize"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
 												"patchline" : 												{
 													"destination" : [ "obj-23", 0 ],
-													"source" : [ "obj-15", 0 ]
+													"source" : [ "obj-10", 0 ]
 												}
 
 											}
@@ -5212,7 +5216,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-15", 0 ],
+													"destination" : [ "obj-10", 0 ],
 													"source" : [ "obj-20", 0 ]
 												}
 
@@ -5255,8 +5259,15 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
+													"destination" : [ "obj-9", 0 ],
 													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-23", 0 ],
+													"source" : [ "obj-9", 0 ]
 												}
 
 											}
@@ -5799,7 +5810,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 117.750003730889603, 218.0, 128.997901508847235, 22.0 ],
+					"patching_rect" : [ 23.750003730889603, 207.0, 128.997901508847235, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -5821,7 +5832,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.747905239736838, 27.021421019551781, 30.0, 30.0 ]
+					"patching_rect" : [ 133.747905239736838, 16.021421019551781, 30.0, 30.0 ]
 				}
 
 			}
@@ -5834,7 +5845,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 117.750003730889603, 27.021421019551781, 30.0, 30.0 ]
+					"patching_rect" : [ 23.750003730889603, 16.021421019551781, 30.0, 30.0 ]
 				}
 
 			}
@@ -5847,7 +5858,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 172.74895448531322, 27.021421019551781, 30.0, 30.0 ]
+					"patching_rect" : [ 78.74895448531322, 16.021421019551781, 30.0, 30.0 ]
 				}
 
 			}
@@ -5859,7 +5870,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 722.750003730889603, 27.021421019551781, 275.0, 163.0 ],
+					"patching_rect" : [ 628.750003730889603, 16.021421019551781, 275.0, 163.0 ],
 					"text" : "CLEAR: repetition -> -1\n              record-buffer ready to be set to 1\n              audio score clear\n\nSTART: repetition -> 0\n             record-to-buffer set to 1\n             audio score starts writing\n\nSTOP: record-buffer set to 0\n            audio score kept but stops writing"
 				}
 
@@ -5872,7 +5883,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 580.750003730889603, 196.113289043708846, 417.0, 53.0 ],
+					"patching_rect" : [ 486.750003730889603, 185.113289043708846, 417.0, 53.0 ],
 					"text" : "on active turned to 1: CLEAR\non first beat received after active turned to 1: START\non min-beat hit after first beat received: repetition increased by 1"
 				}
 
@@ -5888,8 +5899,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 237.247905239736838, 159.010711009775889, 54.750003730889603, 159.010711009775889 ],
-					"order" : 1,
+					"midpoints" : [ 143.247905239736838, 148.010711009775889, 187.750003730889603, 148.010711009775889 ],
+					"order" : 0,
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -5897,7 +5908,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-75", 2 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -5918,8 +5929,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 127.250003730889603, 270.0, 54.750003730889603, 270.0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
 
