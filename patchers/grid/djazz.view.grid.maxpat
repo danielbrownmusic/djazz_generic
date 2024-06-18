@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 240.0, 100.0, 978.0, 751.0 ],
+		"rect" : [ 457.0, 339.0, 822.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -202,7 +202,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Webdings",
-					"fontsize" : 16.0,
+					"fontsize" : 20.0,
 					"id" : "obj-31",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -212,7 +212,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 721.5, 531.599999999999909, 30.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 70.5, 30.0, 21.0 ],
+					"presentation_rect" : [ 24.0, 76.5, 27.0, 25.0 ],
 					"text" : "q",
 					"texton" : "q",
 					"varname" : "textbutton"
@@ -835,9 +835,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 139.0, 472.0, 32.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 30.0, 27.0, 20.0 ],
+					"presentation_rect" : [ 24.0, 34.5, 27.0, 20.0 ],
 					"text" : "bar",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -849,9 +850,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 501.5, 487.0, 55.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, -1.0, 51.0, 20.0 ],
+					"presentation_rect" : [ 0.0, -1.0, 51.0, 20.0 ],
 					"text" : "chapter",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -890,7 +892,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 84.5, 523.100000000000023, 212.0, 81.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.0, 26.5, 397.0, 65.0 ],
+					"presentation_rect" : [ 61.0, 34.5, 434.0, 67.0 ],
 					"tabcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32" ],
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -908,7 +910,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 404.0, 523.100000000000023, 273.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.0, -1.0, 195.0, 23.0 ],
+					"presentation_rect" : [ 61.0, -1.0, 195.0, 23.0 ],
 					"tabs" : [ "1", "2", "3", "4", "5", "6", "7" ],
 					"varname" : "tab"
 				}

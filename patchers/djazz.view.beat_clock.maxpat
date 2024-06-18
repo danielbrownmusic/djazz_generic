@@ -41,14 +41,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Webdings",
-					"fontsize" : 20.0,
+					"fontsize" : 16.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.0, 102.0, 33.0, 26.0 ],
+					"patching_rect" : [ 100.0, 102.0, 30.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.852749903996795, -1.631068706512451, 28.0, 26.0 ],
+					"presentation_rect" : [ 39.85275, 0.0, 24.0, 22.0 ],
 					"text" : "4"
 				}
 
@@ -90,7 +90,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 254.236226017000718, 217.0, 33.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.144416570663452, 0.368931293487549, 29.0, 22.0 ],
+					"presentation_rect" : [ 121.144416570663452, 0.0, 29.0, 22.0 ],
 					"text" : "q",
 					"texton" : "q"
 				}
@@ -238,7 +238,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.499999400000434, 217.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.144416570663452, 0.368931293487549, 43.0, 22.0 ]
+					"presentation_rect" : [ 61.144416570663452, 0.0, 43.0, 22.0 ]
 				}
 
 			}
@@ -252,7 +252,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 55.75, 217.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.147250096003205, 0.368931293487549, 43.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 43.0, 22.0 ]
 				}
 
 			}
@@ -290,7 +290,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 501.740121730168539, 217.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.943171056746223, 0.368931293487549, 43.0, 22.0 ]
+					"presentation_rect" : [ 198.943171056746223, 0.0, 43.0, 22.0 ]
 				}
 
 			}
@@ -304,7 +304,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 375.490121730168539, 217.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.043793813704838, 0.368931293487549, 43.0, 22.0 ]
+					"presentation_rect" : [ 153.043793813704838, 0.0, 43.0, 22.0 ]
 				}
 
 			}

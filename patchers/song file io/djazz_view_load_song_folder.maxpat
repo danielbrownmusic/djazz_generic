@@ -60,7 +60,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 142.75, 34.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.75, 5.0, 51.0, 20.0 ],
+					"presentation_rect" : [ 147.75, 0.0, 51.0, 20.0 ],
 					"text" : "browse",
 					"texton" : "browse"
 				}
@@ -76,7 +76,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 34.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.5, 5.0, 51.0, 20.0 ],
+					"presentation_rect" : [ 207.5, 0.0, 51.0, 20.0 ],
 					"text" : "clear",
 					"texton" : "clear"
 				}
@@ -116,7 +116,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 27.25, 74.0, 107.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 5.0, 140.0, 20.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 140.0, 20.0 ]
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.75, 78.5, 88.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 5.0, 140.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 140.0, 20.0 ],
 					"text" : "drop song folder here or"
 				}
 

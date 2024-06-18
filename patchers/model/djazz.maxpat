@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 315.0, 541.0, 814.0, 509.0 ],
+		"rect" : [ 78.0, 320.0, 814.0, 509.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -246,7 +246,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 703.0, 99.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1274, 100, 1737, 1009 ],
+						"client_rect" : [ 1208, 100, 1671, 1009 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -276,7 +276,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.0, 99.228516000000013, 119.0, 22.0 ],
+					"patching_rect" : [ 487.0, 99.228516000000013, 119.0, 22.0 ],
 					"text" : "djazz.master_control",
 					"varname" : "master"
 				}
@@ -291,13 +291,13 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 440.0, 16.999999624999987, 30.0, 30.0 ]
+					"patching_rect" : [ 487.0, 16.999999624999987, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "ctrl variables",
+					"comment" : "parameters",
 					"id" : "obj-113",
 					"index" : 4,
 					"maxclass" : "inlet",
@@ -442,8 +442,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"order" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 2 ],
-					"midpoints" : [ 449.5, 152.728515812500007, 359.5, 152.728515812500007 ],
+					"midpoints" : [ 496.5, 152.728515812500007, 359.5, 152.728515812500007 ],
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
