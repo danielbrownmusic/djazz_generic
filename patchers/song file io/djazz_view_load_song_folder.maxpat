@@ -108,7 +108,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.0, 1.0, 0.945098039215686, 1.0 ],
+					"bordercolor" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "dropfile",
 					"numinlets" : 1,

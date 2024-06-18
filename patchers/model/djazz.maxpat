@@ -40,14 +40,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "load memory (song dict name)",
+					"comment" : "data in memory (song dict name)",
 					"id" : "obj-14",
-					"index" : 4,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 16.999999624999987, 30.0, 30.0 ]
+					"patching_rect" : [ 765.0, 16.999999624999987, 30.0, 30.0 ]
 				}
 
 			}
@@ -215,7 +215,7 @@
 				"box" : 				{
 					"comment" : "presets",
 					"id" : "obj-10",
-					"index" : 6,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -299,7 +299,7 @@
 				"box" : 				{
 					"comment" : "ctrl variables",
 					"id" : "obj-113",
-					"index" : 5,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
