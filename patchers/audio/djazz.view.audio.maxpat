@@ -340,10 +340,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 614.166680634021759, 184.313460519665114, 775.999996304512024, 25.0 ],
+					"patching_rect" : [ 614.166680634021759, 181.313460519665114, 775.999996304512024, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 117.0, 776.0, 26.0 ],
-					"varname" : "track_load_3",
+					"varname" : "track_loader_1",
 					"viewvisibility" : 1
 				}
 
@@ -391,7 +391,7 @@
 					"patching_rect" : [ 614.166680634021759, 215.313460519665114, 775.999996304512024, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 145.0, 776.0, 26.0 ],
-					"varname" : "track_load_2",
+					"varname" : "track_loader_2",
 					"viewvisibility" : 1
 				}
 
@@ -439,7 +439,7 @@
 					"patching_rect" : [ 614.166680634021759, 243.937121504571905, 775.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 173.0, 780.0, 26.0 ],
-					"varname" : "track_load_1",
+					"varname" : "track_loader3",
 					"viewvisibility" : 1
 				}
 
@@ -457,7 +457,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "djazz.view.midi.track.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 614.166680634021759, 296.879379018140412, 1011.999996304512024, 24.0 ],

@@ -805,7 +805,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "NONE",
+					"buffername" : "AUDIO_IN_BUFFER_NAME",
 					"id" : "obj-14",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -1243,13 +1243,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -1297,9 +1290,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

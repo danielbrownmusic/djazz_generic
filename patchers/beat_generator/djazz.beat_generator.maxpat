@@ -1050,8 +1050,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1215.055506323860072, 173.466646194458008, 192.0, 35.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 1215.055506323860072, 173.466646194458008, 193.0, 35.0 ],
 									"text" : "score_player::speed_denominator $1"
 								}
 
@@ -1077,7 +1076,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 825.455509459064388, 215.466646194458008, 142.0, 35.0 ],
+									"patching_rect" : [ 825.455509459064388, 215.466646194458008, 145.0, 35.0 ],
 									"text" : "improviser::speed::active $1"
 								}
 
@@ -1090,7 +1089,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1215.055506323860072, 215.466646194458008, 178.0, 35.0 ],
+									"patching_rect" : [ 1215.055506323860072, 215.466646194458008, 180.0, 35.0 ],
 									"text" : "improviser::speed_denominator $1"
 								}
 
@@ -1103,7 +1102,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1002.0, 215.466646194458008, 166.0, 35.0 ],
+									"patching_rect" : [ 1002.0, 215.466646194458008, 168.0, 35.0 ],
 									"text" : "improviser::speed_numerator $1"
 								}
 
@@ -1116,7 +1115,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1708.266667485237122, 173.666644096374455, 153.188841973827266, 35.0 ],
+									"patching_rect" : [ 1708.266667485237122, 173.666644096374455, 154.0, 35.0 ],
 									"text" : "improviser::max_continuity $1"
 								}
 
@@ -1129,7 +1128,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1543.266667485237122, 173.666644096374455, 159.188841973827266, 35.0 ],
+									"patching_rect" : [ 1543.266667485237122, 173.666644096374455, 160.0, 35.0 ],
 									"text" : "improviser::semitone_range $1"
 								}
 
@@ -1142,7 +1141,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 103.0, 173.466646194458008, 137.0, 35.0 ],
+									"patching_rect" : [ 103.0, 173.466646194458008, 141.0, 35.0 ],
 									"text" : "score_player::start_beat $1"
 								}
 
@@ -1155,7 +1154,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 400.055506323860072, 173.466646194458008, 191.0, 35.0 ],
+									"patching_rect" : [ 400.055506323860072, 173.466646194458008, 193.0, 35.0 ],
 									"text" : "score_player::loop_section::active $1"
 								}
 
@@ -1181,7 +1180,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1427.455509459064388, 173.666644096374455, 101.0, 35.0 ],
+									"patching_rect" : [ 1427.455509459064388, 173.666644096374455, 103.0, 35.0 ],
 									"text" : "loop::loop_length $1"
 								}
 
@@ -1194,7 +1193,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 825.455509459064388, 173.466646194458008, 156.0, 35.0 ],
+									"patching_rect" : [ 825.455509459064388, 173.466646194458008, 158.0, 35.0 ],
 									"text" : "score_player::speed::active $1"
 								}
 
@@ -1207,7 +1206,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1002.0, 173.466646194458008, 180.0, 35.0 ],
+									"patching_rect" : [ 1002.0, 173.466646194458008, 181.0, 35.0 ],
 									"text" : "score_player::speed_numerator $1"
 								}
 
@@ -1219,8 +1218,8 @@
 									"numinlets" : 12,
 									"numoutlets" : 12,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 17.454545454545439, 101.000000238418579, 960.0, 22.0 ],
-									"text" : "routepass improvise start_beat end_beat loop_section_active loop_section_beats speed_active speed_numerator speed_denominator loop_length semitone_range max_continuity"
+									"patching_rect" : [ 17.454545454545439, 101.000000238418579, 935.0, 22.0 ],
+									"text" : "route improvise start_beat end_beat loop_section_active loop_section_beats speed_active speed_numerator speed_denominator loop_length semitone_range max_continuity"
 								}
 
 							}

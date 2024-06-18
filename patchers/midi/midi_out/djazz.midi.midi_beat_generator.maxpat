@@ -365,7 +365,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js pattrvis.js 0 1"
+					"text" : "js pattrvis.js 1 1"
 				}
 
 			}
@@ -624,7 +624,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1008.333341717720032, 174.333330392837524, 118.0, 35.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 0, 128 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1304,7 +1304,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 42.0, 275.0, 1652.0, 667.0 ],
+						"rect" : [ 42.0, 280.0, 1652.0, 667.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1352,7 +1352,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 28.0, 185.0, 98.0, 62.0 ],
+									"patching_rect" : [ 28.0, 185.0, 102.0, 62.0 ],
 									"text" : "combine beat_generator:: NONE @triggers 1"
 								}
 
@@ -1364,8 +1364,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 107.0, 110.000000238418579, 45.0, 22.0 ],
-									"text" : "zl.slice"
+									"patching_rect" : [ 107.0, 110.000000238418579, 55.0, 22.0 ],
+									"text" : "zl.slice 1"
 								}
 
 							}
@@ -1377,7 +1377,7 @@
 									"numinlets" : 12,
 									"numoutlets" : 12,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 328.0, 54.000000238418579, 117.0, 156.0 ],
+									"patching_rect" : [ 328.0, 54.000000238418579, 121.0, 156.0 ],
 									"text" : "routepass start_beat end_beat loop_section_active loop_section_beats speed_active speed_numerator speed_denominator loop_length improvise semitone_range max_continuity"
 								}
 
@@ -1841,7 +1841,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 572.833353999999986, 30.0, 30.0 ]
+					"patching_rect" : [ 117.0, 566.833353999999986, 30.0, 30.0 ]
 				}
 
 			}
