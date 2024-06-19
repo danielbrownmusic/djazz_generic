@@ -355,7 +355,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
+					"outlinecolor" : [ 0.549019607843137, 0.572549019607843, 0.541176470588235, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.648897419924651, 85.116502165794373, 22.0, 22.0 ],
 					"presentation" : 1,

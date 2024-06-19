@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 127.0, 131.0, 575.0, 263.0 ],
+		"rect" : [ 461.0, 215.0, 1282.0, 506.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 61.018067066668721, 538.70374480013561, 72.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.0, 34.0, 199.0, 47.0 ],
+					"presentation_rect" : [ 55.00000011920929, 303.0, 199.0, 47.0 ],
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -76,13 +76,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.549019607843137, 0.572549019607843, 0.541176470588235, 1.0 ],
+					"color" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 61.018067066668721, 623.948152376272219, 66.115749029994959, 66.115749029994959 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.0, 342.0, 47.0, 47.0 ]
+					"presentation_rect" : [ 3.00000011920929, 303.0, 47.0, 47.0 ]
 				}
 
 			}
@@ -101,7 +103,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 61.018067066668721, 396.20374480013561, 66.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 83.0, 19.0, 199.0, 47.0 ],
+					"presentation_rect" : [ 55.00000011920929, 247.0, 199.0, 47.0 ],
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -124,14 +126,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.549019607843137, 0.572549019607843, 0.541176470588235, 1.0 ],
+					"color" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "ezadc~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 62.018067066668721, 293.663380894375905, 65.0, 65.0 ],
+					"patching_rect" : [ 62.018067066668721, 288.663380894375905, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 19.0, 47.0, 47.0 ]
+					"presentation_rect" : [ 3.00000011920929, 247.0, 47.0, 47.0 ]
 				}
 
 			}
@@ -566,7 +570,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 483.048651897907575, 663.695565664752849, 148.342129588127136, 80.333332300186157 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1244.904702365398407, 509.46788667829145, 146.666667222976685, 75.999998450279236 ],
+					"presentation_rect" : [ 685.571401536464691, 1.6666659116745, 146.666667222976685, 75.999998450279236 ],
 					"varname" : "udp_send",
 					"viewvisibility" : 1
 				}
@@ -574,16 +578,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 16.0,
+					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1837.151668131351471, 108.862232112869151, 112.0, 42.0 ],
+					"patching_rect" : [ 1837.151668131351471, 108.862232112869151, 87.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 973.238066375255585, 372.801213912082801, 108.0, 42.0 ],
+					"presentation_rect" : [ 836.571401536464691, 1.6666659116745, 75.0, 33.0 ],
 					"text" : "EXTERNAL DEVICES",
 					"textcolor" : [ 0.094117647058824, 0.03921568627451, 0.03921568627451, 0.980392156862745 ]
 				}
@@ -607,7 +611,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1738.061693370342255, 108.862232112869151, 90.999996185302734, 131.666667103767395 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 979.571401536464691, 407.46788667829145, 95.333329677581787, 136.33333420753479 ],
+					"presentation_rect" : [ 836.571401536464691, 39.333338677883148, 90.333329677581787, 131.333334207534847 ],
 					"viewvisibility" : 1
 				}
 
@@ -705,7 +709,7 @@
 					"outlettype" : [ "bang", "", "", "" ],
 					"patching_rect" : [ 212.511393749713534, 45.334687025591847, 689.416645884515106, 236.369057774543762 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.00000011920929, 1.6666659116745, 1412.904748499393463, 925.999997019767761 ],
+					"presentation_rect" : [ 3.00000011920929, 1.6666659116745, 678.904748499393463, 241.999997019767761 ],
 					"varname" : "view",
 					"viewvisibility" : 1
 				}
@@ -1003,6 +1007,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-65::obj-45::obj-39::obj-25::obj-21" : 				{
+					"parameter_initial" : 0.0
 				}
 
 			}

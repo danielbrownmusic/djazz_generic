@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 413.0, 158.0, 29.0, 22.0 ],
+					"text" : "t 80"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"id" : "obj-18",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 418.25, 112.5, 20.5, 25.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 5.5, 14.0, 16.5 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -711,6 +738,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -792,7 +820,7 @@
 					}
 ,
 					"text" : "p view",
-					"varname" : "patcher"
+					"varname" : "view"
 				}
 
 			}
@@ -1002,7 +1030,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "track_#1_unmute",
+							"parameter_longname" : "track_1_unmute",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle",
 							"parameter_type" : 2
@@ -1010,7 +1038,7 @@
 
 					}
 ,
-					"varname" : "track_#1_unmute"
+					"varname" : "track_1_unmute"
 				}
 
 			}
@@ -1100,7 +1128,7 @@
 				"box" : 				{
 					"comment" : "components messages",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1132,7 +1160,7 @@
 				"box" : 				{
 					"comment" : "component messages",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1157,7 +1185,7 @@
 				"box" : 				{
 					"comment" : "ctrl variables",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1197,9 +1225,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 23.0, 207.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"track_#1_mute" : [ 0 ],
-						"track_#1_solo" : [ 0 ],
-						"track_#1_unmute" : [ 1 ]
+						"track_1_mute" : [ 0 ],
+						"track_1_solo" : [ 0 ],
+						"track_1_unmute" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1242,7 +1270,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "track_#1_mute",
+							"parameter_longname" : "track_1_mute",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "led",
 							"parameter_type" : 2
@@ -1250,7 +1278,7 @@
 
 					}
 ,
-					"varname" : "track_#1_mute"
+					"varname" : "track_1_mute"
 				}
 
 			}
@@ -1274,7 +1302,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "track_#1_solo",
+							"parameter_longname" : "track_1_solo",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "led[1]",
 							"parameter_type" : 2
@@ -1282,7 +1310,7 @@
 
 					}
 ,
-					"varname" : "track_#1_solo"
+					"varname" : "track_1_solo"
 				}
 
 			}
@@ -1363,6 +1391,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -1379,6 +1414,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1526,47 +1568,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1" : [ "track_#1_solo", "led[1]", 0 ],
-			"obj-2" : [ "track_#1_mute", "led", 0 ],
-			"obj-25::obj-21" : [ "note", "note", 0 ],
-			"obj-46" : [ "track_#1_unmute", "toggle", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "db_dictionary_array_utils.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/code/tools",
-				"patcherrelativepath" : "../../../code/tools",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_components_midi_out_effect_list_view.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/code/midiout",
-				"patcherrelativepath" : "../../../code/midiout",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_midi_out_effect_list_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/midi_out_bank",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

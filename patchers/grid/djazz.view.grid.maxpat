@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 457.0, 339.0, 822.0, 751.0 ],
+		"rect" : [ 179.0, 125.0, 822.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -551,7 +551,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -598,8 +598,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 167.0, 59.0, 22.0 ],
-									"text" : "0. 1. 0. 1."
+									"patching_rect" : [ 50.0, 167.0, 99.0, 22.0 ],
+									"text" : "0. 0.539824 0. 1."
 								}
 
 							}
@@ -622,8 +622,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 167.0, 61.0, 22.0 ],
-									"text" : "1. 0. 0. 1."
+									"patching_rect" : [ 83.0, 197.0, 172.0, 22.0 ],
+									"text" : "0.55452 0.166981 0.048757 1."
 								}
 
 							}
@@ -883,7 +883,7 @@
 			}
 , 			{
 				"box" : 				{
-					"htabcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"htabcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-14",
 					"maxclass" : "tab",
 					"numinlets" : 1,
