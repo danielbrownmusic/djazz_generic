@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 31.0, 100.0, 1597.0, 767.0 ],
+		"rect" : [ 55.0, 470.0, 1597.0, 767.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -116,8 +116,8 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 28.000004947185516, 228.800000011920929, 293.999995052814484, 49.0 ],
-									"text" : "combine audio::audio_out::generators::audio_beat_generator_ #1 ::beat_generator::parameters:: NONE @triggers 3"
+									"patching_rect" : [ 28.000004947185516, 228.800000011920929, 269.0, 49.0 ],
+									"text" : "combine midi::midi_out::generators::midi_beat_generator_ #1 ::parameters:: NONE @triggers 3"
 								}
 
 							}
@@ -801,8 +801,8 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 80.000004947185516, 462.800000011920929, 295.0, 49.0 ],
-									"text" : "combine audio::audio_out::generators::audio_beat_generator_ #1 ::beat_generator::parameters:: NONE @triggers 3"
+									"patching_rect" : [ 80.000004947185516, 462.800000011920929, 293.999995052814484, 49.0 ],
+									"text" : "combine midi::midi_out::generators::midi_beat_generator_ #1 ::parameters:: NONE @triggers 3"
 								}
 
 							}
@@ -1554,13 +1554,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-104",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 70.4999920129776, 513.0, 271.0, 62.0 ],
-									"text" : "combine midi::midi_out::generators::midi_beat_generator_ #1 ::beat_generator::parameters:: NONE @triggers 3"
+									"patching_rect" : [ 70.4999920129776, 513.0, 271.0, 49.0 ],
+									"text" : "combine midi::midi_out::generators::midi_beat_generator_ #1 ::parameters:: NONE @triggers 3"
 								}
 
 							}
@@ -3111,7 +3111,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 274.750003695487976, 10.0, 66.0, 35.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
