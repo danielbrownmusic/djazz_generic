@@ -204,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 905.0, 14.0, 34.0, 35.0 ],
+					"patching_rect" : [ 905.0, 14.0, 36.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
@@ -918,9 +918,9 @@
 					"patching_rect" : [ 264.0, 121.5, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 90.0, 22.0 ],
-					"text" : "",
+					"text" : "#1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"texton" : "",
+					"texton" : "#1",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1002,7 +1002,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "toggle",
+							"parameter_longname" : "track_#1_unmute",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle",
 							"parameter_type" : 2
@@ -1010,7 +1010,7 @@
 
 					}
 ,
-					"varname" : "toggle"
+					"varname" : "track_#1_unmute"
 				}
 
 			}
@@ -1046,7 +1046,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 699.5, 57.5, 58.0, 49.0 ],
+					"patching_rect" : [ 699.5, 57.5, 61.0, 49.0 ],
 					"text" : "combine track_ #1 _mute"
 				}
 
@@ -1059,7 +1059,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 524.0, 61.0, 58.0, 49.0 ],
+					"patching_rect" : [ 524.0, 61.0, 61.0, 49.0 ],
 					"text" : "combine track_ #1 _solo"
 				}
 
@@ -1197,7 +1197,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 23.0, 207.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"toggle" : [ 1 ]
+						"track_#1_mute" : [ 0 ],
+						"track_#1_solo" : [ 0 ],
+						"track_#1_unmute" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1240,7 +1242,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1_track_mute",
+							"parameter_longname" : "track_#1_mute",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "led",
 							"parameter_type" : 2
@@ -1248,7 +1250,7 @@
 
 					}
 ,
-					"varname" : "#1_track_mute"
+					"varname" : "track_#1_mute"
 				}
 
 			}
@@ -1272,7 +1274,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1_track_solo",
+							"parameter_longname" : "track_#1_solo",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "led[1]",
 							"parameter_type" : 2
@@ -1280,7 +1282,7 @@
 
 					}
 ,
-					"varname" : "#1_track_solo"
+					"varname" : "track_#1_solo"
 				}
 
 			}
@@ -1309,7 +1311,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-43",
-					"items" : [ " ", ",", "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1526,10 +1528,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1_track_solo", "led[1]", 0 ],
-			"obj-2" : [ "#1_track_mute", "led", 0 ],
+			"obj-1" : [ "track_#1_solo", "led[1]", 0 ],
+			"obj-2" : [ "track_#1_mute", "led", 0 ],
 			"obj-25::obj-21" : [ "note", "note", 0 ],
-			"obj-46" : [ "toggle", "toggle", 0 ],
+			"obj-46" : [ "track_#1_unmute", "toggle", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

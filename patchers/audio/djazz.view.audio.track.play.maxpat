@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 106.0, 356.0, 1398.0, 478.0 ],
+		"rect" : [ 106.0, 356.0, 966.0, 478.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -335,6 +335,7 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-13",
+													"int" : 1,
 													"maxclass" : "gswitch2",
 													"numinlets" : 2,
 													"numoutlets" : 2,
@@ -982,11 +983,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 292.052620887756348, 25.315781116485596, 30.0, 30.0 ]
 				}
 
@@ -1172,6 +1173,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.074509803921569, 0.047058823529412, 0.047058823529412, 0.96 ],
 					"fontsize" : 14.0,
+					"htabcolor" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -1189,7 +1191,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "10363_AUDIO_IN_BUFFER_NAME",
+					"buffername" : "NONE",
 					"fontsize" : 13.0,
 					"grid" : 500.0,
 					"id" : "obj-68",
@@ -1344,7 +1346,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

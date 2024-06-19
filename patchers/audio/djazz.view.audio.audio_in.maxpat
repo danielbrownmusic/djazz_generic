@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 118.0, 128.0, 1525.0, 626.0 ],
+		"rect" : [ 118.0, 128.0, 1093.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -657,7 +657,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 739.0, 159.143590580606457, 322.0, 26.0 ],
-					"text" : "Macintosh HD:/Users/danielbrown/Desktop/nobodycares/",
+					"text" : "NONE",
 					"varname" : "textedit"
 				}
 
@@ -1316,6 +1316,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
 					"columns" : 16,
 					"id" : "obj-46",
 					"maxclass" : "matrixctrl",

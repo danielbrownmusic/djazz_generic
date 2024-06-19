@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 78.0, 100.0, 1547.0, 928.0 ],
+		"rect" : [ 78.0, 100.0, 1115.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,25 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-18",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 50.0, 628.0, 37.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 552.000000059604645, 0.0, 22.0, 22.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "newobj",
@@ -1723,7 +1742,7 @@
 , 			{
 				"box" : 				{
 					"handoff" : "",
-					"hltcolor" : [ 1.0, 0.576470588235294, 0.0, 0.63 ],
+					"hltcolor" : [ 1.0, 0.576470588235294, 0.0, 0.45 ],
 					"id" : "obj-58",
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
@@ -1732,7 +1751,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 60.824405000000013, 533.5, 26.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 547.000000059604645, 0.0, 22.0, 22.0 ],
+					"presentation_rect" : [ 552.000000059604645, 0.0, 22.0, 22.0 ],
 					"toggle" : 1,
 					"varname" : "ubutton"
 				}
@@ -3031,7 +3050,8 @@
 					"presentation_rect" : [ 0.0, 0.0, 22.0, 22.0 ],
 					"text" : "#1",
 					"texton" : "#1",
-					"textoncolor" : [ 0.015686274509804, 0.019607843137255, 0.019607843137255, 1.0 ]
+					"textoncolor" : [ 0.015686274509804, 0.019607843137255, 0.019607843137255, 1.0 ],
+					"usebgoncolor" : 1
 				}
 
 			}
@@ -3047,7 +3067,7 @@
 					"patching_rect" : [ 31.824405000000013, 533.5, 22.0, 22.0 ],
 					"pic" : "15838-200.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 547.000000059604645, 0.0, 22.0, 22.0 ]
+					"presentation_rect" : [ 552.000000059604645, 0.0, 22.0, 22.0 ]
 				}
 
 			}
