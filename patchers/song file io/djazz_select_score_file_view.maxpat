@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 180.0, 284.0, 1080.0, 766.0 ],
+		"rect" : [ 306.0, 713.0, 1080.0, 766.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -63,7 +63,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 735.0, 481.0, 39.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.25, -4.0, 30.0, 30.0 ]
+					"presentation_rect" : [ 471.25, -4.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -533,7 +533,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 566.0, 287.5, 58.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.25, 0.0, 35.0, 22.0 ],
+					"presentation_rect" : [ 421.25, 0.0, 35.0, 22.0 ],
 					"text" : "Last",
 					"texton" : "Last"
 				}
@@ -631,7 +631,7 @@
 					"pattrmode" : 1,
 					"prefix" : "~/Documents/Max 8/Projects/djazz_db/user/scores/AutumnleavesDoMin/grid",
 					"presentation" : 1,
-					"presentation_rect" : [ 41.25, 0.0, 198.0, 22.0 ],
+					"presentation_rect" : [ 41.25, 0.0, 375.0, 22.0 ],
 					"types" : "TEXT",
 					"varname" : "umenu[1]"
 				}
@@ -649,7 +649,7 @@
 					"patching_rect" : [ 707.0, 481.0, 35.0, 34.0 ],
 					"pic" : "song_folder.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 281.25, -4.0, 30.0, 30.0 ]
+					"presentation_rect" : [ 471.25, -4.0, 30.0, 30.0 ]
 				}
 
 			}

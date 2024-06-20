@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 5,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 582.0, 266.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -59,7 +71,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 269.0, 30.0, 30.0 ]
+					"patching_rect" : [ 136.0, 266.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -71,7 +83,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 269.0, 30.0, 30.0 ]
+					"patching_rect" : [ 39.0, 266.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -135,7 +147,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 269.0, 30.0, 30.0 ]
+					"patching_rect" : [ 226.0, 266.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -149,7 +161,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 489.0, 95.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1172, 742, 1635, 1651 ],
+						"client_rect" : [ 586, 447, 1049, 1356 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -219,7 +231,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 489.0, 269.0, 30.0, 30.0 ]
+					"patching_rect" : [ 489.0, 266.0, 30.0, 30.0 ]
 				}
 
 			}

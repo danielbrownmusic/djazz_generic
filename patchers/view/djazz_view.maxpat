@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 648.065034747123718, 338.083194671406204, 31.0, 22.0 ],
+					"text" : "qlim"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -704,8 +716,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1083.898263454437256, 295.293281374109824, 174.0, 22.0 ],
-					"text" : "djazz.midi_view",
+					"patching_rect" : [ 1083.898263454437256, 295.293281374109824, 89.0, 22.0 ],
+					"text" : "djazz.view.midi",
 					"varname" : "midi"
 				}
 
@@ -1272,7 +1284,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 648.065034747123718, 140.055963134456192, 111.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1172, 742, 1635, 1651 ],
+						"client_rect" : [ 702, 100, 1165, 1009 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -1299,7 +1311,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 34.072174787521362, 283.95819716207177, 504.826088666915894, 83.124997509334435 ],
+					"patching_rect" : [ 34.072174787521362, 283.95819716207177, 504.826088666915894, 76.124997509334435 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.0, 34.316676270611651, 499.362882000000013, 75.208354396037777 ],
 					"varname" : "master",
@@ -1323,7 +1335,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1382,6 +1394,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-35", 2 ]
 				}
@@ -1405,7 +1424,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 1 ],
-					"midpoints" : [ 1330.231603741645813, 255.293281374109824, 1248.398263454437256, 255.293281374109824 ],
+					"midpoints" : [ 1330.231603741645813, 255.293281374109824, 1163.398263454437256, 255.293281374109824 ],
 					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
@@ -1469,66 +1488,51 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-45::obj-39::obj-1" : [ "track_1_solo", "led[1]", 0 ],
-			"obj-45::obj-39::obj-2" : [ "track_1_mute", "led", 0 ],
+			"obj-45::obj-39::obj-1" : [ "midi_out_1_solo", "led[1]", 0 ],
+			"obj-45::obj-39::obj-2" : [ "midi_out_1_mute", "led", 0 ],
 			"obj-45::obj-39::obj-25::obj-21" : [ "note", "note", 0 ],
-			"obj-45::obj-39::obj-46" : [ "track_1_unmute", "toggle", 0 ],
-			"obj-45::obj-40::obj-1" : [ "track_2_solo", "led[1]", 0 ],
-			"obj-45::obj-40::obj-2" : [ "track_2_mute", "led", 0 ],
-			"obj-45::obj-40::obj-25::obj-21" : [ "note[8]", "note", 0 ],
-			"obj-45::obj-40::obj-46" : [ "track_2_unmute", "toggle", 0 ],
-			"obj-45::obj-41::obj-1" : [ "track_3_solo", "led[1]", 0 ],
-			"obj-45::obj-41::obj-2" : [ "track_3_mute", "led", 0 ],
-			"obj-45::obj-41::obj-25::obj-21" : [ "note[12]", "note", 0 ],
-			"obj-45::obj-41::obj-46" : [ "track_3_unmute", "toggle", 0 ],
-			"obj-45::obj-42::obj-1" : [ "track_4_solo", "led[1]", 0 ],
-			"obj-45::obj-42::obj-2" : [ "track_4_mute", "led", 0 ],
-			"obj-45::obj-42::obj-25::obj-21" : [ "note[14]", "note", 0 ],
-			"obj-45::obj-42::obj-46" : [ "track_4_unmute", "toggle", 0 ],
-			"obj-45::obj-43::obj-1" : [ "track_5_solo", "led[1]", 0 ],
-			"obj-45::obj-43::obj-2" : [ "track_5_mute", "led", 0 ],
-			"obj-45::obj-43::obj-25::obj-21" : [ "note[9]", "note", 0 ],
-			"obj-45::obj-43::obj-46" : [ "track_5_unmute", "toggle", 0 ],
-			"obj-45::obj-44::obj-1" : [ "track_6_solo", "led[1]", 0 ],
-			"obj-45::obj-44::obj-2" : [ "track_6_mute", "led", 0 ],
-			"obj-45::obj-44::obj-25::obj-21" : [ "note[13]", "note", 0 ],
-			"obj-45::obj-44::obj-46" : [ "track_6_unmute", "toggle", 0 ],
-			"obj-45::obj-45::obj-1" : [ "track_7_solo", "led[1]", 0 ],
-			"obj-45::obj-45::obj-2" : [ "track_7_mute", "led", 0 ],
-			"obj-45::obj-45::obj-25::obj-21" : [ "note[15]", "note", 0 ],
-			"obj-45::obj-45::obj-46" : [ "track_7_unmute", "toggle", 0 ],
-			"obj-45::obj-46::obj-1" : [ "track_8_solo", "led[1]", 0 ],
-			"obj-45::obj-46::obj-2" : [ "track_8_mute", "led", 0 ],
-			"obj-45::obj-46::obj-25::obj-21" : [ "note[10]", "note", 0 ],
-			"obj-45::obj-46::obj-46" : [ "track_8_unmute", "toggle", 0 ],
-			"obj-45::obj-47::obj-1" : [ "track_9_solo", "led[1]", 0 ],
-			"obj-45::obj-47::obj-2" : [ "track_9_mute", "led", 0 ],
-			"obj-45::obj-47::obj-25::obj-21" : [ "note[16]", "note", 0 ],
-			"obj-45::obj-47::obj-46" : [ "track_9_unmute", "toggle", 0 ],
-			"obj-45::obj-48::obj-1" : [ "track_10_solo", "led[1]", 0 ],
-			"obj-45::obj-48::obj-2" : [ "track_10_mute", "led", 0 ],
-			"obj-45::obj-48::obj-25::obj-21" : [ "note[11]", "note", 0 ],
-			"obj-45::obj-48::obj-46" : [ "track_10_unmute", "toggle", 0 ],
-			"obj-45::obj-49::obj-1" : [ "track_11_solo", "led[1]", 0 ],
-			"obj-45::obj-49::obj-2" : [ "track_11_mute", "led", 0 ],
-			"obj-45::obj-49::obj-25::obj-21" : [ "note[17]", "note", 0 ],
-			"obj-45::obj-49::obj-46" : [ "track_11_unmute", "toggle", 0 ],
-			"obj-45::obj-50::obj-1" : [ "track_12_solo", "led[1]", 0 ],
-			"obj-45::obj-50::obj-2" : [ "track_12_mute", "led", 0 ],
-			"obj-45::obj-50::obj-25::obj-21" : [ "note[18]", "note", 0 ],
-			"obj-45::obj-50::obj-46" : [ "track_12_unmute", "toggle", 0 ],
-			"obj-45::obj-51::obj-1" : [ "track_13_solo", "led[1]", 0 ],
-			"obj-45::obj-51::obj-2" : [ "track_13_mute", "led", 0 ],
-			"obj-45::obj-51::obj-25::obj-21" : [ "note[19]", "note", 0 ],
-			"obj-45::obj-51::obj-46" : [ "track_13_unmute", "toggle", 0 ],
-			"obj-45::obj-52::obj-1" : [ "track_14_solo", "led[1]", 0 ],
-			"obj-45::obj-52::obj-2" : [ "track_14_mute", "led", 0 ],
-			"obj-45::obj-52::obj-25::obj-21" : [ "note[20]", "note", 0 ],
-			"obj-45::obj-52::obj-46" : [ "track_14_unmute", "toggle", 0 ],
-			"obj-45::obj-53::obj-1" : [ "track_15_solo", "led[1]", 0 ],
-			"obj-45::obj-53::obj-2" : [ "track_15_mute", "led", 0 ],
-			"obj-45::obj-53::obj-25::obj-21" : [ "note[21]", "note", 0 ],
-			"obj-45::obj-53::obj-46" : [ "track_15_unmute", "toggle", 0 ],
+			"obj-45::obj-40::obj-1" : [ "midi_out_2_solo", "led[1]", 0 ],
+			"obj-45::obj-40::obj-2" : [ "midi_out_2_mute", "led", 0 ],
+			"obj-45::obj-40::obj-25::obj-21" : [ "note[1]", "note", 0 ],
+			"obj-45::obj-41::obj-1" : [ "midi_out_3_solo", "led[1]", 0 ],
+			"obj-45::obj-41::obj-2" : [ "midi_out_3_mute", "led", 0 ],
+			"obj-45::obj-41::obj-25::obj-21" : [ "note[2]", "note", 0 ],
+			"obj-45::obj-42::obj-1" : [ "midi_out_4_solo", "led[1]", 0 ],
+			"obj-45::obj-42::obj-2" : [ "midi_out_4_mute", "led", 0 ],
+			"obj-45::obj-42::obj-25::obj-21" : [ "note[3]", "note", 0 ],
+			"obj-45::obj-43::obj-1" : [ "midi_out_5_solo", "led[1]", 0 ],
+			"obj-45::obj-43::obj-2" : [ "midi_out_5_mute", "led", 0 ],
+			"obj-45::obj-43::obj-25::obj-21" : [ "note[4]", "note", 0 ],
+			"obj-45::obj-44::obj-1" : [ "midi_out_6_solo", "led[1]", 0 ],
+			"obj-45::obj-44::obj-2" : [ "midi_out_6_mute", "led", 0 ],
+			"obj-45::obj-44::obj-25::obj-21" : [ "note[5]", "note", 0 ],
+			"obj-45::obj-45::obj-1" : [ "midi_out_7_solo", "led[1]", 0 ],
+			"obj-45::obj-45::obj-2" : [ "midi_out_7_mute", "led", 0 ],
+			"obj-45::obj-45::obj-25::obj-21" : [ "note[6]", "note", 0 ],
+			"obj-45::obj-46::obj-1" : [ "midi_out_8_solo", "led[1]", 0 ],
+			"obj-45::obj-46::obj-2" : [ "midi_out_8_mute", "led", 0 ],
+			"obj-45::obj-46::obj-25::obj-21" : [ "note[7]", "note", 0 ],
+			"obj-45::obj-47::obj-1" : [ "midi_out_9_solo", "led[1]", 0 ],
+			"obj-45::obj-47::obj-2" : [ "midi_out_9_mute", "led", 0 ],
+			"obj-45::obj-47::obj-25::obj-21" : [ "note[8]", "note", 0 ],
+			"obj-45::obj-48::obj-1" : [ "midi_out_10_solo", "led[1]", 0 ],
+			"obj-45::obj-48::obj-2" : [ "midi_out_10_mute", "led", 0 ],
+			"obj-45::obj-48::obj-25::obj-21" : [ "note[9]", "note", 0 ],
+			"obj-45::obj-49::obj-1" : [ "midi_out_11_solo", "led[1]", 0 ],
+			"obj-45::obj-49::obj-2" : [ "midi_out_11_mute", "led", 0 ],
+			"obj-45::obj-49::obj-25::obj-21" : [ "note[10]", "note", 0 ],
+			"obj-45::obj-50::obj-1" : [ "midi_out_12_solo", "led[1]", 0 ],
+			"obj-45::obj-50::obj-2" : [ "midi_out_12_mute", "led", 0 ],
+			"obj-45::obj-50::obj-25::obj-21" : [ "note[11]", "note", 0 ],
+			"obj-45::obj-51::obj-1" : [ "midi_out_13_solo", "led[1]", 0 ],
+			"obj-45::obj-51::obj-2" : [ "midi_out_13_mute", "led", 0 ],
+			"obj-45::obj-51::obj-25::obj-21" : [ "note[12]", "note", 0 ],
+			"obj-45::obj-52::obj-1" : [ "midi_out_14_solo", "led[1]", 0 ],
+			"obj-45::obj-52::obj-2" : [ "midi_out_14_mute", "led", 0 ],
+			"obj-45::obj-52::obj-25::obj-21" : [ "note[13]", "note", 0 ],
+			"obj-45::obj-53::obj-1" : [ "midi_out_15_solo", "led[1]", 0 ],
+			"obj-45::obj-53::obj-2" : [ "midi_out_15_mute", "led", 0 ],
+			"obj-45::obj-53::obj-25::obj-21" : [ "note[14]", "note", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1598,13 +1602,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.midi_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/view",
-				"patcherrelativepath" : "../midi/view",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "djazz.view.audio.audio_in.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/audio",
 				"patcherrelativepath" : "../audio",
@@ -1636,6 +1633,13 @@
 				"name" : "djazz.view.grid.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
 				"patcherrelativepath" : "../grid",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.view.midi.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/view",
+				"patcherrelativepath" : "../midi/view",
 				"type" : "JSON",
 				"implicit" : 1
 			}

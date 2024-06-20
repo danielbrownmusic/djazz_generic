@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 105.0, 561.0, 355.0, 441.0 ],
+		"rect" : [ 105.0, 561.0, 1028.0, 432.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -65,12 +65,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 473.0, 16.021421019551781, 150.0, 87.0 ],
-					"text" : "audio_buffer_name audio_score_dict_name\nbeat \ninitial_tempo song_dict_name loop_section_beats  "
+					"patching_rect" : [ 473.0, 16.021421019551781, 150.0, 74.0 ],
+					"text" : "audio_buffer_name audio_score_dict_name\nbeat \ninitial_tempo loop_section_beats  "
 				}
 
 			}

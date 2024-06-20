@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 461.0, 215.0, 1282.0, 506.0 ],
+		"rect" : [ 144.0, 547.0, 903.0, 437.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1631.0, 319.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1553.0, 401.0, 44.0, 22.0 ],
+					"text" : "get_all"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "",
 					"clip_size" : 1,
 					"display_range" : [ -70.0, 30.0 ],
@@ -51,9 +74,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 61.018067066668721, 538.70374480013561, 72.0, 47.0 ],
+					"patching_rect" : [ 40.566963160036778, 526.70374480013561, 75.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.00000011920929, 303.0, 199.0, 47.0 ],
+					"presentation_rect" : [ 444.904748618602753, 253.0, 237.0, 47.0 ],
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -82,9 +105,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.018067066668721, 623.948152376272219, 66.115749029994959, 66.115749029994959 ],
+					"patching_rect" : [ 40.566963160036778, 646.695565664752849, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.00000011920929, 303.0, 47.0, 47.0 ]
+					"presentation_rect" : [ 392.904748618602753, 253.0, 47.0, 47.0 ]
 				}
 
 			}
@@ -101,9 +124,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 61.018067066668721, 396.20374480013561, 66.0, 47.0 ],
+					"patching_rect" : [ 40.566963160036778, 373.70374480013561, 65.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.00000011920929, 247.0, 199.0, 47.0 ],
+					"presentation_rect" : [ 55.00000011920929, 253.0, 237.0, 47.0 ],
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -133,9 +156,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 62.018067066668721, 288.663380894375905, 65.0, 65.0 ],
+					"patching_rect" : [ 40.566963160036778, 246.663380894375905, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.00000011920929, 247.0, 47.0, 47.0 ]
+					"presentation_rect" : [ 3.00000011920929, 253.0, 47.0, 47.0 ]
 				}
 
 			}
@@ -490,7 +513,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 263.009169310728453, 663.695565664752849, 75.0, 22.0 ],
+					"patching_rect" : [ 487.511393749713591, 631.695565664752849, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -509,7 +532,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 478.7358127013851, 354.163380894375905, 140.36665835380569, 22.0 ],
+					"patching_rect" : [ 1157.928039634228753, 320.20374480013561, 140.36665835380569, 22.0 ],
 					"text" : "djazz.song_data_loader"
 				}
 
@@ -521,7 +544,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 364.004720432758347, 530.0, 133.731092268626753, 22.0 ],
+					"patching_rect" : [ 710.98360904455194, 542.70374480013561, 465.731092268626753, 22.0 ],
 					"text" : "djazz.view_parameters",
 					"varname" : "patcher"
 				}
@@ -534,7 +557,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 364.004720432758347, 396.20374480013561, 133.731092268626753, 22.0 ],
+					"patching_rect" : [ 710.98360904455194, 386.20374480013561, 465.944430589676813, 22.0 ],
 					"text" : "djazz.parameters",
 					"varname" : "djazz.parameters"
 				}
@@ -546,7 +569,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.004720432758347, 663.695565664752849, 96.0, 22.0 ],
+					"patching_rect" : [ 710.98360904455194, 631.695565664752849, 96.0, 22.0 ],
 					"text" : "djazz_udp_send",
 					"varname" : "udp_send[1]"
 				}
@@ -568,9 +591,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 483.048651897907575, 663.695565664752849, 148.342129588127136, 80.333332300186157 ],
+					"patching_rect" : [ 830.048651897907575, 662.695565664752849, 148.342129588127136, 80.333332300186157 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 685.571401536464691, 1.6666659116745, 146.666667222976685, 75.999998450279236 ],
+					"presentation_rect" : [ 690.571401536464691, 1.6666659116745, 146.666667222976685, 75.999998450279236 ],
 					"varname" : "udp_send",
 					"viewvisibility" : 1
 				}
@@ -584,10 +607,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1837.151668131351471, 108.862232112869151, 87.0, 33.0 ],
+					"patching_rect" : [ 1516.151668131351471, 53.929801955881885, 87.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 836.571401536464691, 1.6666659116745, 75.0, 33.0 ],
+					"presentation_rect" : [ 690.571401536464691, 85.6666659116745, 141.0, 20.0 ],
 					"text" : "EXTERNAL DEVICES",
 					"textcolor" : [ 0.094117647058824, 0.03921568627451, 0.03921568627451, 0.980392156862745 ]
 				}
@@ -609,9 +631,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1738.061693370342255, 108.862232112869151, 90.999996185302734, 131.666667103767395 ],
+					"patching_rect" : [ 1417.061693370342255, 53.929801955881885, 90.999996185302734, 131.666667103767395 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 836.571401536464691, 39.333338677883148, 90.333329677581787, 131.333334207534847 ],
+					"presentation_rect" : [ 690.571401536464691, 112.333328723907414, 90.333329677581787, 131.333334207534847 ],
 					"viewvisibility" : 1
 				}
 
@@ -623,7 +645,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1738.061693370342255, 274.20374468092632, 127.0, 22.0 ],
+					"patching_rect" : [ 1417.061693370342255, 219.271314523939054, 127.0, 22.0 ],
 					"text" : "djazz_launchpad_mini"
 				}
 
@@ -635,7 +657,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1891.403826057910919, 274.20374468092632, 178.0, 22.0 ],
+					"patching_rect" : [ 1570.403826057910919, 219.271314523939054, 178.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "djazz_parameter_handler.js",
 						"parameter_enable" : 0
@@ -650,9 +672,9 @@
 					"id" : "obj-57",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 61.018067066668721, 477.70374480013561, 321.986653366089627, 22.0 ],
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "", "" ],
+					"patching_rect" : [ 40.566963160036778, 468.70374480013561, 912.888861179353626, 22.0 ],
 					"text" : "djazz",
 					"varname" : "model"
 				}
@@ -674,7 +696,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2004.444707340001969, 99.267117182579113, 121.0, 38.595115526336485 ],
+					"patching_rect" : [ 1683.444707340001969, 44.334687025591847, 121.0, 38.595115526336485 ],
 					"viewvisibility" : 1
 				}
 
@@ -686,7 +708,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2004.444707340001969, 164.267117182579113, 203.0, 22.0 ],
+					"patching_rect" : [ 1683.444707340001969, 109.334687025591847, 203.0, 22.0 ],
 					"text" : "djazz_make_song_navigation_files"
 				}
 
@@ -707,7 +729,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang", "", "", "" ],
-					"patching_rect" : [ 212.511393749713534, 45.334687025591847, 689.416645884515106, 236.369057774543762 ],
+					"patching_rect" : [ 487.511393749713761, 44.334687025591847, 689.416645884514992, 241.369057774543762 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.00000011920929, 1.6666659116745, 678.904748499393463, 241.999997019767761 ],
 					"varname" : "view",
@@ -719,15 +741,22 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 3 ],
-					"midpoints" : [ 373.504720432758347, 433.45374480013561, 297.758057091235969, 433.45374480013561 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"midpoints" : [ 1167.428039634228753, 427.20374480013561, 1331.123603225549232, 427.20374480013561, 1331.123603225549232, 24.334687025591847, 497.011393749713761, 24.334687025591847 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 1747.561693370342255, 307.537078053996083, 1874.232761204242706, 307.537078053996083, 1874.232761204242706, 259.203744561717031, 1900.903826057910919, 259.203744561717031 ],
+					"midpoints" : [ 1426.561693370342255, 252.604647897008817, 1553.232761204242706, 252.604647897008817, 1553.232761204242706, 204.271314404729765, 1579.903826057910919, 204.271314404729765 ],
 					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
@@ -736,7 +765,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 1747.561693370342255, 307.194211237370382, 1719.333341598510742, 307.194211237370382, 1719.333341598510742, 86.194211237370382, 1747.561693370342255, 86.194211237370382 ],
+					"midpoints" : [ 1426.561693370342255, 252.261781080383116, 1398.333341598510742, 252.261781080383116, 1398.333341598510742, 31.261781080383116, 1426.561693370342255, 31.261781080383116 ],
 					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
@@ -760,8 +789,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 1900.903826057910919, 310.20374480013561, 1875.566094577312469, 310.20374480013561, 1875.566094577312469, 259.203744561717031, 1747.561693370342255, 259.203744561717031 ],
+					"midpoints" : [ 1579.903826057910919, 255.271314643148344, 1554.566094577312469, 255.271314643148344, 1554.566094577312469, 204.271314404729765, 1426.561693370342255, 204.271314404729765 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-14", 1 ]
 				}
 
 			}
@@ -810,7 +846,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
-					"midpoints" : [ 609.60247105519079, 503.081690447187952, 488.2358127013851, 503.081690447187952 ],
+					"midpoints" : [ 1288.794697988034386, 523.433562847255757, 1167.214701313178693, 523.433562847255757 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -826,7 +862,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
-					"midpoints" : [ 373.504720432758347, 563.0, 920.758057091235969, 563.0, 920.758057091235969, 25.334687025591847, 222.011393749713534, 25.334687025591847 ],
+					"midpoints" : [ 720.48360904455194, 581.0, 1330.758057091235969, 581.0, 1330.758057091235969, 24.334687025591847, 497.011393749713761, 24.334687025591847 ],
 					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
@@ -835,7 +871,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 272.509169310728453, 639.199655232444229, 373.504720432758347, 639.199655232444229 ],
+					"midpoints" : [ 497.011393749713591, 594.199655232444229, 720.48360904455194, 594.199655232444229 ],
 					"order" : 0,
 					"source" : [ "obj-57", 2 ]
 				}
@@ -873,8 +909,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 668.955824339390347, 322.70374480013561, 430.870266567071724, 322.70374480013561 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-65", 2 ]
 				}
 
@@ -882,7 +917,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 445.48360904455194, 307.70374480013561, 373.504720432758347, 307.70374480013561 ],
 					"source" : [ "obj-65", 1 ]
 				}
 
@@ -890,7 +924,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 892.428039634228639, 337.433562847255757, 488.2358127013851, 337.433562847255757 ],
 					"source" : [ "obj-65", 3 ]
 				}
 
@@ -898,7 +931,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 668.955824339390347, 453.851872400067805, 430.870266567071724, 453.851872400067805 ],
+					"midpoints" : [ 943.955824339390347, 363.0, 1220.0, 363.0, 1220.0, 505.0, 943.849155178865317, 505.0 ],
 					"order" : 0,
 					"source" : [ "obj-65", 2 ]
 				}
@@ -907,8 +940,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 4 ],
-					"midpoints" : [ 668.955824339390347, 453.20374480013561, 373.504720432758347, 453.20374480013561 ],
-					"order" : 2,
+					"midpoints" : [ 943.955824339390347, 363.0, 1220.0, 363.0, 1220.0, 449.0, 943.955824339390347, 449.0 ],
+					"order" : 1,
 					"source" : [ "obj-65", 2 ]
 				}
 
@@ -917,6 +950,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 2 ],
 					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -940,67 +980,501 @@
 			"obj-1::obj-134::obj-130" : [ "chapter_number[1]", "chapter_number", 0 ],
 			"obj-1::obj-134::obj-131" : [ "bar_number[1]", "bar_number", 0 ],
 			"obj-1::obj-134::obj-6" : [ "chapter_loop[1]", "chapter_loop", 0 ],
+			"obj-1::obj-5::obj-10::obj-19" : [ "midi_track_6_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-10::obj-23" : [ "midi_track_6_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-10::obj-25" : [ "midi_track_6_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-10::obj-27" : [ "midi_track_6_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-10::obj-29" : [ "midi_track_6_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-10::obj-31" : [ "midi_track_6_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-10::obj-33" : [ "midi_track_6_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-10::obj-35" : [ "midi_track_6_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-10::obj-37" : [ "midi_track_6_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-10::obj-39" : [ "midi_track_6_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-10::obj-41" : [ "midi_track_6_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-10::obj-43" : [ "midi_track_6_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-10::obj-45" : [ "midi_track_6_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-10::obj-47" : [ "midi_track_6_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-10::obj-49" : [ "midi_track_6_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-10::obj-51" : [ "midi_track_6_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-10::obj-55" : [ "midi_track_1_transpose_pitch[100]", "number", 0 ],
+			"obj-1::obj-5::obj-10::obj-62" : [ "midi_track_1_transpose_pitch[99]", "number", 0 ],
+			"obj-1::obj-5::obj-10::obj-67" : [ "midi_track_1_transpose_pitch[81]", "number", 0 ],
+			"obj-1::obj-5::obj-10::obj-86" : [ "midi_track_6_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-10::obj-88" : [ "midi_track_6_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-10::obj-90" : [ "midi_track_6_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-11::obj-19" : [ "midi_track_15_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-11::obj-23" : [ "midi_track_15_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-11::obj-25" : [ "midi_track_15_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-11::obj-27" : [ "midi_track_15_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-11::obj-29" : [ "midi_track_15_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-11::obj-31" : [ "midi_track_15_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-11::obj-33" : [ "midi_track_15_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-11::obj-35" : [ "midi_track_15_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-11::obj-37" : [ "midi_track_15_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-11::obj-39" : [ "midi_track_15_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-11::obj-41" : [ "midi_track_15_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-11::obj-43" : [ "midi_track_15_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-11::obj-45" : [ "midi_track_15_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-11::obj-47" : [ "midi_track_15_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-11::obj-49" : [ "midi_track_15_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-11::obj-51" : [ "midi_track_15_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-11::obj-55" : [ "midi_track_1_transpose_pitch[16]", "number", 0 ],
+			"obj-1::obj-5::obj-11::obj-62" : [ "midi_track_1_transpose_pitch[17]", "number", 0 ],
+			"obj-1::obj-5::obj-11::obj-67" : [ "midi_track_1_transpose_pitch[18]", "number", 0 ],
+			"obj-1::obj-5::obj-11::obj-86" : [ "midi_track_15_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-11::obj-88" : [ "midi_track_15_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-11::obj-90" : [ "midi_track_15_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-12::obj-19" : [ "midi_track_14_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-12::obj-23" : [ "midi_track_14_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-12::obj-25" : [ "midi_track_14_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-12::obj-27" : [ "midi_track_14_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-12::obj-29" : [ "midi_track_14_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-12::obj-31" : [ "midi_track_14_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-12::obj-33" : [ "midi_track_14_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-12::obj-35" : [ "midi_track_14_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-12::obj-37" : [ "midi_track_14_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-12::obj-39" : [ "midi_track_14_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-12::obj-41" : [ "midi_track_14_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-12::obj-43" : [ "midi_track_14_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-12::obj-45" : [ "midi_track_14_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-12::obj-47" : [ "midi_track_14_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-12::obj-49" : [ "midi_track_14_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-12::obj-51" : [ "midi_track_14_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-12::obj-55" : [ "midi_track_1_transpose_pitch[14]", "number", 0 ],
+			"obj-1::obj-5::obj-12::obj-62" : [ "midi_track_1_transpose_pitch[15]", "number", 0 ],
+			"obj-1::obj-5::obj-12::obj-67" : [ "midi_track_1_transpose_pitch[13]", "number", 0 ],
+			"obj-1::obj-5::obj-12::obj-86" : [ "midi_track_14_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-12::obj-88" : [ "midi_track_14_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-12::obj-90" : [ "midi_track_14_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-13::obj-19" : [ "midi_track_13_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-13::obj-23" : [ "midi_track_13_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-13::obj-25" : [ "midi_track_13_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-13::obj-27" : [ "midi_track_13_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-13::obj-29" : [ "midi_track_13_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-13::obj-31" : [ "midi_track_13_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-13::obj-33" : [ "midi_track_13_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-13::obj-35" : [ "midi_track_13_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-13::obj-37" : [ "midi_track_13_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-13::obj-39" : [ "midi_track_13_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-13::obj-41" : [ "midi_track_13_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-13::obj-43" : [ "midi_track_13_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-13::obj-45" : [ "midi_track_13_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-13::obj-47" : [ "midi_track_13_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-13::obj-49" : [ "midi_track_13_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-13::obj-51" : [ "midi_track_13_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-13::obj-55" : [ "midi_track_1_transpose_pitch[10]", "number", 0 ],
+			"obj-1::obj-5::obj-13::obj-62" : [ "midi_track_1_transpose_pitch[11]", "number", 0 ],
+			"obj-1::obj-5::obj-13::obj-67" : [ "midi_track_1_transpose_pitch[12]", "number", 0 ],
+			"obj-1::obj-5::obj-13::obj-86" : [ "midi_track_13_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-13::obj-88" : [ "midi_track_13_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-13::obj-90" : [ "midi_track_13_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-14::obj-19" : [ "midi_track_12_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-14::obj-23" : [ "midi_track_12_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-14::obj-25" : [ "midi_track_12_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-14::obj-27" : [ "midi_track_12_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-14::obj-29" : [ "midi_track_12_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-14::obj-31" : [ "midi_track_12_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-14::obj-33" : [ "midi_track_12_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-14::obj-35" : [ "midi_track_12_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-14::obj-37" : [ "midi_track_12_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-14::obj-39" : [ "midi_track_12_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-14::obj-41" : [ "midi_track_12_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-14::obj-43" : [ "midi_track_12_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-14::obj-45" : [ "midi_track_12_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-14::obj-47" : [ "midi_track_12_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-14::obj-49" : [ "midi_track_12_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-14::obj-51" : [ "midi_track_12_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-14::obj-55" : [ "midi_track_1_transpose_pitch[7]", "number", 0 ],
+			"obj-1::obj-5::obj-14::obj-62" : [ "midi_track_1_transpose_pitch[8]", "number", 0 ],
+			"obj-1::obj-5::obj-14::obj-67" : [ "midi_track_1_transpose_pitch[9]", "number", 0 ],
+			"obj-1::obj-5::obj-14::obj-86" : [ "midi_track_12_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-14::obj-88" : [ "midi_track_12_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-14::obj-90" : [ "midi_track_12_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-15::obj-19" : [ "midi_track_11_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-15::obj-23" : [ "midi_track_11_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-15::obj-25" : [ "midi_track_11_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-15::obj-27" : [ "midi_track_11_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-15::obj-29" : [ "midi_track_11_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-15::obj-31" : [ "midi_track_11_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-15::obj-33" : [ "midi_track_11_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-15::obj-35" : [ "midi_track_11_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-15::obj-37" : [ "midi_track_11_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-15::obj-39" : [ "midi_track_11_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-15::obj-41" : [ "midi_track_11_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-15::obj-43" : [ "midi_track_11_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-15::obj-45" : [ "midi_track_11_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-15::obj-47" : [ "midi_track_11_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-15::obj-49" : [ "midi_track_11_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-15::obj-51" : [ "midi_track_11_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-15::obj-55" : [ "midi_track_1_transpose_pitch[6]", "number", 0 ],
+			"obj-1::obj-5::obj-15::obj-62" : [ "midi_track_1_transpose_pitch[5]", "number", 0 ],
+			"obj-1::obj-5::obj-15::obj-67" : [ "midi_track_1_transpose_pitch[109]", "number", 0 ],
+			"obj-1::obj-5::obj-15::obj-86" : [ "midi_track_11_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-15::obj-88" : [ "midi_track_11_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-15::obj-90" : [ "midi_track_11_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-19" : [ "score_1_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-23" : [ "score_1_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-25" : [ "score_1_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-27" : [ "score_1_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-29" : [ "score_1_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-31" : [ "score_1_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-33" : [ "score_1_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-35" : [ "score_1_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-37" : [ "score_1_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-39" : [ "score_1_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-41" : [ "score_1_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-43" : [ "score_1_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-45" : [ "score_1_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-47" : [ "score_1_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-49" : [ "score_1_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-51" : [ "score_1_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-55" : [ "midi_track_1_transpose_pitch[47]", "number", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-62" : [ "midi_track_1_transpose_pitch[66]", "number", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-67" : [ "midi_track_1_transpose_pitch[55]", "number", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-86" : [ "score_1_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-88" : [ "score_1_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-16::obj-2::obj-90" : [ "score_1_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-19" : [ "score_2_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-23" : [ "score_2_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-25" : [ "score_2_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-27" : [ "score_2_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-29" : [ "score_2_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-31" : [ "score_2_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-33" : [ "score_2_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-35" : [ "score_2_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-37" : [ "score_2_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-39" : [ "score_2_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-41" : [ "score_2_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-43" : [ "score_2_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-45" : [ "score_2_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-47" : [ "score_2_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-49" : [ "score_2_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-51" : [ "score_2_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-55" : [ "midi_track_1_transpose_pitch[57]", "number", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-62" : [ "midi_track_1_transpose_pitch[35]", "number", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-67" : [ "midi_track_1_transpose_pitch[34]", "number", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-86" : [ "score_2_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-88" : [ "score_2_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-17::obj-2::obj-90" : [ "score_2_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-18::obj-4" : [ "midi_out_14_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-18::obj-46" : [ "midi_out_14_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-18::obj-6" : [ "midi_out_14_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-18::obj-7" : [ "midi_out_14_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-18::obj-8" : [ "midi_out_14_volume", "number", 0 ],
+			"obj-1::obj-5::obj-19::obj-4" : [ "midi_out_13_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-19::obj-46" : [ "midi_out_13_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-19::obj-6" : [ "midi_out_13_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-19::obj-7" : [ "midi_out_13_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-19::obj-8" : [ "midi_out_13_volume", "number", 0 ],
+			"obj-1::obj-5::obj-1::obj-19" : [ "midi_track_1_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-1::obj-23" : [ "midi_track_1_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-1::obj-25" : [ "midi_track_1_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-1::obj-27" : [ "midi_track_1_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-1::obj-29" : [ "midi_track_1_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-1::obj-31" : [ "midi_track_1_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-1::obj-33" : [ "midi_track_1_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-1::obj-35" : [ "midi_track_1_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-1::obj-37" : [ "midi_track_1_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-1::obj-39" : [ "midi_track_1_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-1::obj-41" : [ "midi_track_1_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-1::obj-43" : [ "midi_track_1_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-1::obj-45" : [ "midi_track_1_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-1::obj-47" : [ "midi_track_1_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-1::obj-49" : [ "midi_track_1_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-1::obj-51" : [ "midi_track_1_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-1::obj-55" : [ "midi_track_1_transpose_pitch[1]", "number", 0 ],
+			"obj-1::obj-5::obj-1::obj-62" : [ "midi_track_1_transpose_pitch[2]", "number", 0 ],
+			"obj-1::obj-5::obj-1::obj-67" : [ "midi_track_1_transpose_pitch[3]", "number", 0 ],
+			"obj-1::obj-5::obj-1::obj-86" : [ "midi_track_1_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-1::obj-88" : [ "midi_track_1_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-1::obj-90" : [ "midi_track_1_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-20::obj-4" : [ "midi_out_12_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-20::obj-46" : [ "midi_out_12_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-20::obj-6" : [ "midi_out_12_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-20::obj-7" : [ "midi_out_12_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-20::obj-8" : [ "midi_out_12_volume", "number", 0 ],
+			"obj-1::obj-5::obj-21::obj-4" : [ "midi_out_11_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-21::obj-46" : [ "midi_out_11_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-21::obj-6" : [ "midi_out_11_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-21::obj-7" : [ "midi_out_11_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-21::obj-8" : [ "midi_out_11_volume", "number", 0 ],
+			"obj-1::obj-5::obj-22::obj-4" : [ "midi_out_10_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-22::obj-46" : [ "midi_out_10_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-22::obj-6" : [ "midi_out_10_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-22::obj-7" : [ "midi_out_10_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-22::obj-8" : [ "midi_out_10_volume", "number", 0 ],
+			"obj-1::obj-5::obj-23::obj-4" : [ "midi_out_9_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-23::obj-46" : [ "midi_out_9_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-23::obj-6" : [ "midi_out_9_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-23::obj-7" : [ "midi_out_9_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-23::obj-8" : [ "midi_out_9_volume", "number", 0 ],
+			"obj-1::obj-5::obj-24::obj-4" : [ "midi_out_8_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-24::obj-46" : [ "midi_out_8_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-24::obj-6" : [ "midi_out_8_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-24::obj-7" : [ "midi_out_8_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-24::obj-8" : [ "midi_out_8_volume", "number", 0 ],
+			"obj-1::obj-5::obj-25::obj-4" : [ "midi_out_7_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-25::obj-46" : [ "midi_out_7_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-25::obj-6" : [ "midi_out_7_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-25::obj-7" : [ "midi_out_7_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-25::obj-8" : [ "midi_out_7_volume", "number", 0 ],
+			"obj-1::obj-5::obj-26::obj-4" : [ "midi_out_6_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-26::obj-46" : [ "midi_out_6_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-26::obj-6" : [ "midi_out_6_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-26::obj-7" : [ "midi_out_6_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-26::obj-8" : [ "midi_out_6_volume", "number", 0 ],
+			"obj-1::obj-5::obj-27::obj-4" : [ "midi_out_5_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-27::obj-46" : [ "midi_out_5_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-27::obj-6" : [ "midi_out_5_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-27::obj-7" : [ "midi_out_5_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-27::obj-8" : [ "midi_out_5_volume", "number", 0 ],
+			"obj-1::obj-5::obj-28::obj-4" : [ "midi_out_15_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-28::obj-46" : [ "midi_out_15_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-28::obj-6" : [ "midi_out_15_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-28::obj-7" : [ "midi_out_15_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-28::obj-8" : [ "midi_out_15_volume", "number", 0 ],
+			"obj-1::obj-5::obj-29::obj-4" : [ "midi_out_4_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-29::obj-46" : [ "midi_out_4_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-29::obj-6" : [ "midi_out_4_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-29::obj-7" : [ "midi_out_4_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-29::obj-8" : [ "midi_out_4_volume", "number", 0 ],
+			"obj-1::obj-5::obj-2::obj-19" : [ "midi_track_2_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-2::obj-23" : [ "midi_track_2_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-2::obj-25" : [ "midi_track_2_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-2::obj-27" : [ "midi_track_2_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-2::obj-29" : [ "midi_track_2_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-2::obj-31" : [ "midi_track_2_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-2::obj-33" : [ "midi_track_2_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-2::obj-35" : [ "midi_track_2_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-2::obj-37" : [ "midi_track_2_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-2::obj-39" : [ "midi_track_2_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-2::obj-41" : [ "midi_track_2_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-2::obj-43" : [ "midi_track_2_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-2::obj-45" : [ "midi_track_2_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-2::obj-47" : [ "midi_track_2_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-2::obj-49" : [ "midi_track_2_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-2::obj-51" : [ "midi_track_2_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-2::obj-55" : [ "midi_track_1_transpose_pitch[78]", "number", 0 ],
+			"obj-1::obj-5::obj-2::obj-62" : [ "midi_track_1_transpose_pitch[76]", "number", 0 ],
+			"obj-1::obj-5::obj-2::obj-67" : [ "midi_track_1_transpose_pitch[77]", "number", 0 ],
+			"obj-1::obj-5::obj-2::obj-86" : [ "midi_track_2_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-2::obj-88" : [ "midi_track_2_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-2::obj-90" : [ "midi_track_2_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-30::obj-4" : [ "midi_out_3_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-30::obj-46" : [ "midi_out_3_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-30::obj-6" : [ "midi_out_3_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-30::obj-7" : [ "midi_out_3_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-30::obj-8" : [ "midi_out_3_volume", "number", 0 ],
+			"obj-1::obj-5::obj-31::obj-4" : [ "midi_out_2_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-31::obj-46" : [ "midi_out_2_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-31::obj-6" : [ "midi_out_2_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-31::obj-7" : [ "midi_out_2_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-31::obj-8" : [ "midi_out_2_volume", "number", 0 ],
+			"obj-1::obj-5::obj-32::obj-4" : [ "midi_out_1_mute", "midi_out_1_mute", 0 ],
+			"obj-1::obj-5::obj-32::obj-46" : [ "midi_out_1_unmute", "toggle", 0 ],
+			"obj-1::obj-5::obj-32::obj-6" : [ "midi_out_1_solo", "midi_out_1_solo", 0 ],
+			"obj-1::obj-5::obj-32::obj-7" : [ "midi_out_1_port", "midi_out_1_port", 0 ],
+			"obj-1::obj-5::obj-32::obj-8" : [ "midi_out_1_volume", "number", 0 ],
+			"obj-1::obj-5::obj-3::obj-19" : [ "midi_track_3_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-3::obj-23" : [ "midi_track_3_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-3::obj-25" : [ "midi_track_3_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-3::obj-27" : [ "midi_track_3_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-3::obj-29" : [ "midi_track_3_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-3::obj-31" : [ "midi_track_3_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-3::obj-33" : [ "midi_track_3_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-3::obj-35" : [ "midi_track_3_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-3::obj-37" : [ "midi_track_3_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-3::obj-39" : [ "midi_track_3_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-3::obj-41" : [ "midi_track_3_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-3::obj-43" : [ "midi_track_3_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-3::obj-45" : [ "midi_track_3_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-3::obj-47" : [ "midi_track_3_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-3::obj-49" : [ "midi_track_3_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-3::obj-51" : [ "midi_track_3_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-3::obj-55" : [ "midi_track_1_transpose_pitch[79]", "number", 0 ],
+			"obj-1::obj-5::obj-3::obj-62" : [ "midi_track_1_transpose_pitch[80]", "number", 0 ],
+			"obj-1::obj-5::obj-3::obj-67" : [ "midi_track_1_transpose_pitch[92]", "number", 0 ],
+			"obj-1::obj-5::obj-3::obj-86" : [ "midi_track_3_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-3::obj-88" : [ "midi_track_3_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-3::obj-90" : [ "midi_track_3_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-4::obj-19" : [ "midi_track_4_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-4::obj-23" : [ "midi_track_4_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-4::obj-25" : [ "midi_track_4_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-4::obj-27" : [ "midi_track_4_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-4::obj-29" : [ "midi_track_4_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-4::obj-31" : [ "midi_track_4_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-4::obj-33" : [ "midi_track_4_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-4::obj-35" : [ "midi_track_4_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-4::obj-37" : [ "midi_track_4_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-4::obj-39" : [ "midi_track_4_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-4::obj-41" : [ "midi_track_4_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-4::obj-43" : [ "midi_track_4_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-4::obj-45" : [ "midi_track_4_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-4::obj-47" : [ "midi_track_4_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-4::obj-49" : [ "midi_track_4_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-4::obj-51" : [ "midi_track_4_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-4::obj-55" : [ "midi_track_1_transpose_pitch[93]", "number", 0 ],
+			"obj-1::obj-5::obj-4::obj-62" : [ "midi_track_1_transpose_pitch[94]", "number", 0 ],
+			"obj-1::obj-5::obj-4::obj-67" : [ "midi_track_1_transpose_pitch[95]", "number", 0 ],
+			"obj-1::obj-5::obj-4::obj-86" : [ "midi_track_4_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-4::obj-88" : [ "midi_track_4_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-4::obj-90" : [ "midi_track_4_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-5::obj-19" : [ "midi_track_5_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-5::obj-23" : [ "midi_track_5_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-5::obj-25" : [ "midi_track_5_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-5::obj-27" : [ "midi_track_5_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-5::obj-29" : [ "midi_track_5_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-5::obj-31" : [ "midi_track_5_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-5::obj-33" : [ "midi_track_5_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-5::obj-35" : [ "midi_track_5_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-5::obj-37" : [ "midi_track_5_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-5::obj-39" : [ "midi_track_5_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-5::obj-41" : [ "midi_track_5_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-5::obj-43" : [ "midi_track_5_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-5::obj-45" : [ "midi_track_5_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-5::obj-47" : [ "midi_track_5_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-5::obj-49" : [ "midi_track_5_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-5::obj-51" : [ "midi_track_5_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-5::obj-55" : [ "midi_track_1_transpose_pitch[98]", "number", 0 ],
+			"obj-1::obj-5::obj-5::obj-62" : [ "midi_track_1_transpose_pitch[96]", "number", 0 ],
+			"obj-1::obj-5::obj-5::obj-67" : [ "midi_track_1_transpose_pitch[97]", "number", 0 ],
+			"obj-1::obj-5::obj-5::obj-86" : [ "midi_track_5_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-5::obj-88" : [ "midi_track_5_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-5::obj-90" : [ "midi_track_5_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-6::obj-19" : [ "midi_track_10_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-6::obj-23" : [ "midi_track_10_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-6::obj-25" : [ "midi_track_10_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-6::obj-27" : [ "midi_track_10_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-6::obj-29" : [ "midi_track_10_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-6::obj-31" : [ "midi_track_10_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-6::obj-33" : [ "midi_track_10_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-6::obj-35" : [ "midi_track_10_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-6::obj-37" : [ "midi_track_10_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-6::obj-39" : [ "midi_track_10_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-6::obj-41" : [ "midi_track_10_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-6::obj-43" : [ "midi_track_10_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-6::obj-45" : [ "midi_track_10_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-6::obj-47" : [ "midi_track_10_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-6::obj-49" : [ "midi_track_10_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-6::obj-51" : [ "midi_track_10_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-6::obj-55" : [ "midi_track_1_transpose_pitch[108]", "number", 0 ],
+			"obj-1::obj-5::obj-6::obj-62" : [ "midi_track_1_transpose_pitch[4]", "number", 0 ],
+			"obj-1::obj-5::obj-6::obj-67" : [ "midi_track_1_transpose_pitch[107]", "number", 0 ],
+			"obj-1::obj-5::obj-6::obj-86" : [ "midi_track_10_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-6::obj-88" : [ "midi_track_10_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-6::obj-90" : [ "midi_track_10_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-7::obj-19" : [ "midi_track_9_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-7::obj-23" : [ "midi_track_9_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-7::obj-25" : [ "midi_track_9_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-7::obj-27" : [ "midi_track_9_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-7::obj-29" : [ "midi_track_9_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-7::obj-31" : [ "midi_track_9_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-7::obj-33" : [ "midi_track_9_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-7::obj-35" : [ "midi_track_9_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-7::obj-37" : [ "midi_track_9_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-7::obj-39" : [ "midi_track_9_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-7::obj-41" : [ "midi_track_9_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-7::obj-43" : [ "midi_track_9_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-7::obj-45" : [ "midi_track_9_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-7::obj-47" : [ "midi_track_9_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-7::obj-49" : [ "midi_track_9_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-7::obj-51" : [ "midi_track_9_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-7::obj-55" : [ "midi_track_1_transpose_pitch[88]", "number", 0 ],
+			"obj-1::obj-5::obj-7::obj-62" : [ "midi_track_1_transpose_pitch[89]", "number", 0 ],
+			"obj-1::obj-5::obj-7::obj-67" : [ "midi_track_1_transpose_pitch[91]", "number", 0 ],
+			"obj-1::obj-5::obj-7::obj-86" : [ "midi_track_9_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-7::obj-88" : [ "midi_track_9_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-7::obj-90" : [ "midi_track_9_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-8::obj-19" : [ "midi_track_8_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-8::obj-23" : [ "midi_track_8_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-8::obj-25" : [ "midi_track_8_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-8::obj-27" : [ "midi_track_8_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-8::obj-29" : [ "midi_track_8_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-8::obj-31" : [ "midi_track_8_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-8::obj-33" : [ "midi_track_8_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-8::obj-35" : [ "midi_track_8_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-8::obj-37" : [ "midi_track_8_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-8::obj-39" : [ "midi_track_8_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-8::obj-41" : [ "midi_track_8_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-8::obj-43" : [ "midi_track_8_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-8::obj-45" : [ "midi_track_8_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-8::obj-47" : [ "midi_track_8_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-8::obj-49" : [ "midi_track_8_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-8::obj-51" : [ "midi_track_8_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-8::obj-55" : [ "midi_track_1_transpose_pitch[104]", "number", 0 ],
+			"obj-1::obj-5::obj-8::obj-62" : [ "midi_track_1_transpose_pitch[105]", "number", 0 ],
+			"obj-1::obj-5::obj-8::obj-67" : [ "midi_track_1_transpose_pitch[106]", "number", 0 ],
+			"obj-1::obj-5::obj-8::obj-86" : [ "midi_track_8_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-8::obj-88" : [ "midi_track_8_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-8::obj-90" : [ "midi_track_8_reset_octave", "toggle[15]", 0 ],
+			"obj-1::obj-5::obj-9::obj-19" : [ "midi_track_7_transpose_pitch", "number", 0 ],
+			"obj-1::obj-5::obj-9::obj-23" : [ "midi_track_7_speed_1/2", "midi_track_1_speed_1/2", 0 ],
+			"obj-1::obj-5::obj-9::obj-25" : [ "midi_track_7_speed_3/2", "midi_track_1_speed_3/2", 0 ],
+			"obj-1::obj-5::obj-9::obj-27" : [ "midi_track_7_speed_2", "midi_track_1_speed_2", 0 ],
+			"obj-1::obj-5::obj-9::obj-29" : [ "midi_track_7_speed_4", "midi_track_1_speed_4", 0 ],
+			"obj-1::obj-5::obj-9::obj-31" : [ "midi_track_7_loop_1", "midi_track_1_loop_1", 0 ],
+			"obj-1::obj-5::obj-9::obj-33" : [ "midi_track_7_loop_2", "midi_track_1_loop_2", 0 ],
+			"obj-1::obj-5::obj-9::obj-35" : [ "midi_track_7_loop_3", "midi_track_1_loop_3", 0 ],
+			"obj-1::obj-5::obj-9::obj-37" : [ "midi_track_7_loop_4", "midi_track_1_loop_4", 0 ],
+			"obj-1::obj-5::obj-9::obj-39" : [ "midi_track_7_loop_5", "midi_track_1_loop_5", 0 ],
+			"obj-1::obj-5::obj-9::obj-41" : [ "midi_track_7_loop_6", "midi_track_1_loop_6", 0 ],
+			"obj-1::obj-5::obj-9::obj-43" : [ "midi_track_7_loop_7", "midi_track_1_loop_7", 0 ],
+			"obj-1::obj-5::obj-9::obj-45" : [ "midi_track_7_loop_8", "midi_track_1_loop_8", 0 ],
+			"obj-1::obj-5::obj-9::obj-47" : [ "midi_track_7_improvise", "midi_track_1_improvise", 0 ],
+			"obj-1::obj-5::obj-9::obj-49" : [ "midi_track_7_semitone_range", "midi_track_1_semitone_range", 0 ],
+			"obj-1::obj-5::obj-9::obj-51" : [ "midi_track_7_max_continuity", "midi_track_1_max_continuity", 0 ],
+			"obj-1::obj-5::obj-9::obj-55" : [ "midi_track_1_transpose_pitch[103]", "number", 0 ],
+			"obj-1::obj-5::obj-9::obj-62" : [ "midi_track_1_transpose_pitch[102]", "number", 0 ],
+			"obj-1::obj-5::obj-9::obj-67" : [ "midi_track_1_transpose_pitch[101]", "number", 0 ],
+			"obj-1::obj-5::obj-9::obj-86" : [ "midi_track_7_octave_up", "midi_track_1_octave_up", 0 ],
+			"obj-1::obj-5::obj-9::obj-88" : [ "midi_track_7_octave_down", "midi_track_1_octave_down", 0 ],
+			"obj-1::obj-5::obj-9::obj-90" : [ "midi_track_7_reset_octave", "toggle[15]", 0 ],
 			"obj-4::obj-2::obj-31" : [ "num_chapters[1]", "num_chapters", 0 ],
-			"obj-65::obj-45::obj-39::obj-1" : [ "track_1_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-39::obj-2" : [ "track_1_mute", "led", 0 ],
+			"obj-65::obj-45::obj-39::obj-1" : [ "midi_out_1_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-39::obj-2" : [ "midi_out_1_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-39::obj-25::obj-21" : [ "note", "note", 0 ],
-			"obj-65::obj-45::obj-39::obj-46" : [ "track_1_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-40::obj-1" : [ "track_2_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-40::obj-2" : [ "track_2_mute", "led", 0 ],
+			"obj-65::obj-45::obj-40::obj-1" : [ "midi_out_2_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-40::obj-2" : [ "midi_out_2_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-40::obj-25::obj-21" : [ "note[1]", "note", 0 ],
-			"obj-65::obj-45::obj-40::obj-46" : [ "track_2_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-41::obj-1" : [ "track_3_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-41::obj-2" : [ "track_3_mute", "led", 0 ],
+			"obj-65::obj-45::obj-41::obj-1" : [ "midi_out_3_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-41::obj-2" : [ "midi_out_3_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-41::obj-25::obj-21" : [ "note[2]", "note", 0 ],
-			"obj-65::obj-45::obj-41::obj-46" : [ "track_3_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-42::obj-1" : [ "track_4_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-42::obj-2" : [ "track_4_mute", "led", 0 ],
+			"obj-65::obj-45::obj-42::obj-1" : [ "midi_out_4_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-42::obj-2" : [ "midi_out_4_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-42::obj-25::obj-21" : [ "note[3]", "note", 0 ],
-			"obj-65::obj-45::obj-42::obj-46" : [ "track_4_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-43::obj-1" : [ "track_5_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-43::obj-2" : [ "track_5_mute", "led", 0 ],
+			"obj-65::obj-45::obj-43::obj-1" : [ "midi_out_5_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-43::obj-2" : [ "midi_out_5_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-43::obj-25::obj-21" : [ "note[4]", "note", 0 ],
-			"obj-65::obj-45::obj-43::obj-46" : [ "track_5_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-44::obj-1" : [ "track_6_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-44::obj-2" : [ "track_6_mute", "led", 0 ],
+			"obj-65::obj-45::obj-44::obj-1" : [ "midi_out_6_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-44::obj-2" : [ "midi_out_6_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-44::obj-25::obj-21" : [ "note[5]", "note", 0 ],
-			"obj-65::obj-45::obj-44::obj-46" : [ "track_6_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-45::obj-1" : [ "track_7_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-45::obj-2" : [ "track_7_mute", "led", 0 ],
+			"obj-65::obj-45::obj-45::obj-1" : [ "midi_out_7_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-45::obj-2" : [ "midi_out_7_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-45::obj-25::obj-21" : [ "note[6]", "note", 0 ],
-			"obj-65::obj-45::obj-45::obj-46" : [ "track_7_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-46::obj-1" : [ "track_8_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-46::obj-2" : [ "track_8_mute", "led", 0 ],
+			"obj-65::obj-45::obj-46::obj-1" : [ "midi_out_8_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-46::obj-2" : [ "midi_out_8_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-46::obj-25::obj-21" : [ "note[7]", "note", 0 ],
-			"obj-65::obj-45::obj-46::obj-46" : [ "track_8_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-47::obj-1" : [ "track_9_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-47::obj-2" : [ "track_9_mute", "led", 0 ],
+			"obj-65::obj-45::obj-47::obj-1" : [ "midi_out_9_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-47::obj-2" : [ "midi_out_9_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-47::obj-25::obj-21" : [ "note[8]", "note", 0 ],
-			"obj-65::obj-45::obj-47::obj-46" : [ "track_9_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-48::obj-1" : [ "track_10_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-48::obj-2" : [ "track_10_mute", "led", 0 ],
+			"obj-65::obj-45::obj-48::obj-1" : [ "midi_out_10_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-48::obj-2" : [ "midi_out_10_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-48::obj-25::obj-21" : [ "note[9]", "note", 0 ],
-			"obj-65::obj-45::obj-48::obj-46" : [ "track_10_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-49::obj-1" : [ "track_11_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-49::obj-2" : [ "track_11_mute", "led", 0 ],
+			"obj-65::obj-45::obj-49::obj-1" : [ "midi_out_11_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-49::obj-2" : [ "midi_out_11_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-49::obj-25::obj-21" : [ "note[10]", "note", 0 ],
-			"obj-65::obj-45::obj-49::obj-46" : [ "track_11_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-50::obj-1" : [ "track_12_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-50::obj-2" : [ "track_12_mute", "led", 0 ],
+			"obj-65::obj-45::obj-50::obj-1" : [ "midi_out_12_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-50::obj-2" : [ "midi_out_12_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-50::obj-25::obj-21" : [ "note[11]", "note", 0 ],
-			"obj-65::obj-45::obj-50::obj-46" : [ "track_12_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-51::obj-1" : [ "track_13_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-51::obj-2" : [ "track_13_mute", "led", 0 ],
+			"obj-65::obj-45::obj-51::obj-1" : [ "midi_out_13_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-51::obj-2" : [ "midi_out_13_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-51::obj-25::obj-21" : [ "note[12]", "note", 0 ],
-			"obj-65::obj-45::obj-51::obj-46" : [ "track_13_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-52::obj-1" : [ "track_14_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-52::obj-2" : [ "track_14_mute", "led", 0 ],
+			"obj-65::obj-45::obj-52::obj-1" : [ "midi_out_14_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-52::obj-2" : [ "midi_out_14_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-52::obj-25::obj-21" : [ "note[13]", "note", 0 ],
-			"obj-65::obj-45::obj-52::obj-46" : [ "track_14_unmute", "toggle", 0 ],
-			"obj-65::obj-45::obj-53::obj-1" : [ "track_15_solo", "led[1]", 0 ],
-			"obj-65::obj-45::obj-53::obj-2" : [ "track_15_mute", "led", 0 ],
+			"obj-65::obj-45::obj-53::obj-1" : [ "midi_out_15_solo[1]", "led[1]", 0 ],
+			"obj-65::obj-45::obj-53::obj-2" : [ "midi_out_15_mute[1]", "led", 0 ],
 			"obj-65::obj-45::obj-53::obj-25::obj-21" : [ "note[14]", "note", 0 ],
-			"obj-65::obj-45::obj-53::obj-46" : [ "track_15_unmute", "toggle", 0 ],
 			"obj-70" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -1012,8 +1486,36 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-65::obj-45::obj-39::obj-25::obj-21" : 				{
-					"parameter_initial" : 0.0
+				"obj-1::obj-5::obj-32::obj-4" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1,
+					"parameter_linknames" : 1
+				}
+,
+				"obj-1::obj-5::obj-32::obj-6" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1,
+					"parameter_linknames" : 1
+				}
+,
+				"obj-1::obj-5::obj-32::obj-7" : 				{
+					"parameter_initial" : 0,
+					"parameter_initial_enable" : 1,
+					"parameter_invisible" : 1,
+					"parameter_linknames" : 1,
+					"parameter_modmode" : 0,
+					"parameter_type" : 1,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-1::obj-5::obj-32::obj-8" : 				{
+					"parameter_initial" : 80.0,
+					"parameter_initial_enable" : 1,
+					"parameter_invisible" : 1,
+					"parameter_linknames" : 1,
+					"parameter_modmode" : 0,
+					"parameter_type" : 1,
+					"parameter_unitstyle" : 10
 				}
 
 			}
@@ -1341,13 +1843,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.midi_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/view",
-				"patcherrelativepath" : "./midi/view",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "djazz.parameters.audio.level_out.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
 				"patcherrelativepath" : ".",
@@ -1384,6 +1879,13 @@
 			}
 , 			{
 				"name" : "djazz.parameters.score.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.parameters.score.track.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1481,6 +1983,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "djazz.view.midi.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/view",
+				"patcherrelativepath" : "./midi/view",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "djazz.view.midi.midi_out_track.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/midi/midi_out_bank",
 				"patcherrelativepath" : "./midi/midi_out_bank",
@@ -1524,13 +2033,6 @@
 			}
 , 			{
 				"name" : "djazz.view_parameters.midi_beat_generator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.view_parameters.score.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

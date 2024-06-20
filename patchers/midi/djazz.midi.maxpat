@@ -169,7 +169,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 295.0, 332.0, 529.0, 567.0 ],
+						"rect" : [ 47.0, 355.0, 529.0, 567.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -197,7 +197,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -1992,7 +1991,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 31.75, 166.0, 64.0, 22.0 ],
+					"patching_rect" : [ 31.75, 173.0, 64.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
